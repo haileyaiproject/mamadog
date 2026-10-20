@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>마마독 (MamaDog) – 아기랑, 강아지랑, 서울 나들이</title>
+  <meta name="description" content="돌 전 아기와 강아지랑 함께 갈 수 있는 서울 나들이 장소 모음. 수유실·기저귀교환대·유모차대여 정보와 반려견 동반 여부를 한눈에 확인하세요.">
+  <meta name="theme-color" content="#FF7A59">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="마마독">
+  <meta property="og:title" content="마마독 – 아기랑, 강아지랑, 서울 나들이">
+  <meta property="og:description" content="수유실·기저귀교환대·유모차대여, 강아지 동반 가능한 서울 나들이 장소 찾기">
+  <meta property="og:image" content="assets/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <!-- 기본 색상은 styles.css 에 있고, brand.css 가 있으면 덮어씁니다 (없어도 괜찮아요) -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/brand.css" onerror="this.remove()">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <img class="logo" src="assets/logo.svg" alt="" width="36" height="36" onerror="this.style.display='none'">
+      <span class="brand-name">마마독</span>
+      <span class="tagline">아기랑, 강아지랑, 서울 나들이</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>돌 전 아기와 강아지, 같이 갈 수 있는 서울 나들이 장소</h1>
+      <p>수유실·기저귀교환대·유모차대여 정보를 모아 두었어요.</p>
+
+      <div class="filters" role="group" aria-label="필터">
+        <div class="chips">
+          <button type="button" class="chip" data-filter="nursingRoom" aria-pressed="false">🍼 수유실</button>
+          <button type="button" class="chip" data-filter="diaperStation" aria-pressed="false">🚼 기저귀교환대</button>
+          <button type="button" class="chip" data-filter="strollerRental" aria-pressed="false">👶 유모차대여</button>
+          <button type="button" class="chip dog" data-filter="dog" aria-pressed="false">🐶 강아지 동반</button>
+        </div>
+        <div class="controls">
+          <div><label for="district">자치구</label><select id="district"><option value="">전체 자치구</option></select></div>
+          <div><label for="category">카테고리</label><select id="category"><option value="">전체 카테고리</option></select></div>
+          <div class="search"><label for="q">검색</label><input id="q" type="search" placeholder="장소 이름, 주소로 검색" autocomplete="off"></div>
+        </div>
+      </div>
+      <div class="result-bar">
+        <span id="count" role="status" aria-live="polite">불러오는 중…</span>
+        <button type="button" class="reset" id="reset" hidden>필터 초기화</button>
+      </div>
+    </section>
+
+    <div class="layout">
+      <div class="map-wrap"><div id="map" role="region" aria-label="장소 지도"></div></div>
+      <div class="list-wrap">
+        <div id="message"></div>
+        <div id="list" class="list" aria-label="장소 목록">
+          <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>반려동물 동반 정책은 변경될 수 있어요. 방문 전 꼭 확인해주세요.</p>
+    <p><a id="report" href="mailto:hello@example.com">정보 제보하기</a></p>
+    <p>© 마마독 MamaDog · 지도 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a></p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

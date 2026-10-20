@@ -1,0 +1,1130 @@
+[
+  {
+    "id": "seoul-forest",
+    "name": "서울숲",
+    "category": "공원",
+    "district": "성동구",
+    "address": "서울특별시 성동구 뚝섬로 273",
+    "lat": 37.5444,
+    "lng": 127.0374,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "공원 입구 방문자센터 수유실·기저귀교환대. 유모차 무료 대여(신분증 필요, 2시간 무료)."
+    },
+    "dog": {
+      "allowed": true,
+      "note": "목줄 착용 필수. 서울시 반려견 목줄 규정 적용 공원으로 언급됨. 반려견 놀이터 위치·규정은 별도 확인.",
+      "confidence": "medium"
+    },
+    "hours": "공원 연중무휴 24시간 개방 (곤충식물원 10:00~17:00, 월요일 휴무)",
+    "sourceUrl": "https://mom-mom.net/travel/places/62cd17c42718fee95297da5d",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "bukseoul-dream-forest",
+    "name": "북서울꿈의숲",
+    "category": "공원",
+    "district": "강북구",
+    "address": "서울특별시 강북구 월계로 173",
+    "lat": 37.6188,
+    "lng": 127.0262,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "아트센터·방문자센터·상상톡톡미술관에 수유실. 기저귀교환대 있음. 유모차 대여는 페이지마다 상충(본문 '제공되지 않음', FAQ '방문자센터 방재실 문의 시 가능') — 방문 전 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려견 놀이터 운영: 관할 구청 동물등록 반려견만, 보호자 동반, 안전줄 지참, 대형(40cm 이상)·중소형 구역 분리, 배변봉투 지참. 놀이터 외 구역 반려견 출입 여부는 확인되지 않음.",
+      "confidence": "medium"
+    },
+    "hours": "공원 연중무휴 개방 (시설별 상이). 반려견 놀이터 화~일 10:00~19:00, 동절기 휴장",
+    "sourceUrl": "https://mom-mom.net/travel/places/62cd17912718fee95297d97e",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "ttukseom-hangang",
+    "name": "뚝섬한강공원",
+    "category": "공원",
+    "district": "광진구",
+    "address": "서울특별시 광진구 자양동 704-1",
+    "lat": 37.5296,
+    "lng": 127.0735,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "자벌레·뚝섬유원지역 인근 수유실, 기저귀교환대. 유모차 무료 대여(나눔의 장터, 최신 운영은 현장 확인)."
+    },
+    "dog": {
+      "allowed": true,
+      "note": "애견 동반 가능(공원 안내). 한강공원 조례상 동반 반려견은 목줄 착용 필수, 배설물 수거 의무(위반 시 과태료 5만원·7만원).",
+      "confidence": "medium"
+    },
+    "hours": "연중무휴 상시 개방 (공원 안내)",
+    "sourceUrl": "https://mom-mom.net/travel/places/66304918e5c7a3643388b25e",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "yongsan-family-park",
+    "name": "용산가족공원",
+    "category": "공원",
+    "district": "용산구",
+    "address": "서울특별시 용산구 서빙고로 185 용산공원",
+    "lat": 37.5294,
+    "lng": 126.982,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "아기의자·수유실·기저귀교환대·유모차 대여 시설 목록에 있음(위치는 페이지에 미기재)."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려견 출입 정보가 확인되지 않음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "24시간 개방 (00:00~24:00)",
+    "sourceUrl": "https://mom-mom.net/travel/places/6461f18de23edef9810acf24",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "olympic-park",
+    "name": "올림픽공원",
+    "category": "공원",
+    "district": "송파구",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "lat": 37.5209,
+    "lng": 127.1215,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "평화의광장 안내센터, 동1문 안내센터, 한성백제박물관 1층에 수유실·기저귀교환대. 안내센터 유모차 무료 대여(방문 전 가능 여부 확인)."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려견 출입 정보가 확인되지 않음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "도보·자전거 출입 05:00~22:00, 광장 05:00~24:00, 차량 06:00~22:00 (페이지 기준)",
+    "sourceUrl": "https://mom-mom.net/travel/places/62cd18602718fee95297dd43",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "seoul-childrens-grand-park",
+    "name": "서울어린이대공원",
+    "category": "공원",
+    "district": "광진구",
+    "address": "서울특별시 광진구 능동로 216",
+    "lat": 37.5507,
+    "lng": 127.0817,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": null,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "정문·모험의나라 화장실 등에 수유실. 유모차 대여소 정문·후문(성수기 09:00~19:00, 우천·겨울 휴무). 기저귀교환대 위치는 공식 안내에 미기재."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "2013년 기사 기준: 동물등록 반려견만 입장, 구의문 주차장 입구로만 들어가 반려견 놀이터만 이용 가능(놀이터 외 공원 출입 금지). 현재 운영 여부 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "공원 연중무휴. 동물원 10:00~17:00",
+    "sourceUrl": "https://sisul.or.kr/open_content/childrenpark/introduce/facility.jsp",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "seoseoul-lake-park",
+    "name": "서서울호수공원",
+    "category": "공원",
+    "district": "양천구",
+    "address": "서울특별시 양천구 남부순환로64길 26",
+    "lat": 37.5271,
+    "lng": 126.8415,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "방문자센터 옆 화장실 수유실. 기저귀교환대 있음. 유모차 대여는 관리사무실."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려견 동반 정책이 페이지에 없음. 방문 전 공원 관리처 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "상시 개방. 중앙호수 소리분수 5~10월 10:00~18:00",
+    "sourceUrl": "https://mom-mom.net/travel/places/62cd17b92718fee95297da25",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "changgyeonggung",
+    "name": "창경궁",
+    "category": "궁·유적",
+    "district": "종로구",
+    "address": "서울특별시 종로구 창경궁로 185",
+    "lat": 37.5788,
+    "lng": 126.9954,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "시설 목록 기준 수유실·기저귀교환대·유모차 대여."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "궁궐 내 반려동물 출입 정책이 페이지에 없음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "화~일 09:00~21:00, 월요일 정기휴무 (페이지 기준)",
+    "sourceUrl": "https://mom-mom.net/travel/places/62cd18ce2718fee95297df82",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "national-museum-of-korea",
+    "name": "국립중앙박물관",
+    "category": "박물관",
+    "district": "용산구",
+    "address": "서울특별시 용산구 서빙고로 137",
+    "lat": 37.5238,
+    "lng": 126.9803,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "수유실은 1층 문화상품점 맞은편(FAQ). 유모차 대여는 상설전시관 1층 안내데스크(신분증 필요)."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 출입 정책이 확인되지 않음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "홈페이지 기준 09:30~17:30 (수·토 21:00까지). 요일별 시간이 자료마다 달라 방문 전 확인",
+    "sourceUrl": "https://www.museum.go.kr",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "seoul-history-museum",
+    "name": "서울역사박물관",
+    "category": "박물관",
+    "district": "종로구",
+    "address": "서울특별시 종로구 새문안로 55",
+    "lat": 37.5681,
+    "lng": 126.9703,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "수유실·기저귀교환대·유모차 대여 시설 목록. 유모차 대여는 24개월 미만 대상, 날짜별 가능 여부 상이."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려견 정책 정보가 확인되지 않음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "화~일 09:00~18:00, 월요일 휴관 (금요일 21:00 연장 여부는 자료마다 상충)",
+    "sourceUrl": "https://mom-mom.net/travel/places/648fb44a236b4a53258b6edc",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "seoul-library",
+    "name": "서울도서관",
+    "category": "도서관",
+    "district": "중구",
+    "address": "서울특별시 중구 세종대로 110",
+    "lat": 37.5664,
+    "lng": 126.9773,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": false,
+      "strollerAccess": null,
+      "note": "1층 수유실(모유수유실 내 기저귀교환대). 유모차 대여와 아기의자는 없음."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려견 정보가 페이지에 없음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "화~금 09:00~21:00, 토·일 09:00~18:00, 월요일 휴관",
+    "sourceUrl": "https://mom-mom.net/travel/places/650ce9647b6f8db33b8df068",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "national-childrens-science-museum",
+    "name": "국립어린이과학관",
+    "category": "박물관",
+    "district": "종로구",
+    "address": "서울특별시 종로구 창경궁로 215",
+    "lat": 37.5804,
+    "lng": 126.9999,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "수유실·기저귀교환대 있음. 유모차 대여 가능(페이지 기준)."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 정보가 페이지에 없음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "화~일 09:30~17:30 (입장 마감 16:30), 월요일 휴관",
+    "sourceUrl": "https://mom-mom.net/travel/places/62cd15fd2718fee95297d183",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "national-folk-museum-kids",
+    "name": "국립민속박물관 어린이박물관",
+    "category": "박물관",
+    "district": "종로구",
+    "address": "서울특별시 종로구 삼청로 37",
+    "lat": 37.5818,
+    "lng": 126.979,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "수유실·기저귀교환대 시설 목록에 있음. 유모차 대여는 자료마다 상충 — 방문 전 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 정보가 페이지에 없음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "매일 09:00~18:00 표기, FAQ 09:30~16:50로 상충. 1/1·설·추석 휴관. 방문 전 확인",
+    "sourceUrl": "https://mom-mom.net/travel/places/62cd15f82718fee95297d15e",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "seoul-photo-museum",
+    "name": "서울시립 사진미술관",
+    "category": "박물관",
+    "district": "도봉구",
+    "address": "서울특별시 도봉구 마들로13길 68",
+    "lat": 37.6517,
+    "lng": 127.0474,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "1층 수유실, 기저귀교환대. 유모차는 인포메이션에서 대여."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 정보가 페이지에 없음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "화~금 10:00~20:00, 토·일 10:00~19:00, 월요일 휴무",
+    "sourceUrl": "https://mom-mom.net/travel/places/685e4754617dbb59a0f196a0",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "seoul-life-museum",
+    "name": "서울생활사박물관",
+    "category": "박물관",
+    "district": "노원구",
+    "address": "서울특별시 노원구 동일로174길 27",
+    "lat": 37.6455,
+    "lng": 127.0662,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "1층 수유실, 기저귀교환대. 유모차는 1층 안내데스크에서 대여(어린이 체험실 내 반입 불가)."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 정보가 페이지에 없음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "화~일 09:00~18:00, 월요일 휴무",
+    "sourceUrl": "https://mom-mom.net/travel/places/62cd17c42718fee95297da5c",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "seoul-education-museum",
+    "name": "서울교육박물관",
+    "category": "박물관",
+    "district": "종로구",
+    "address": "서울특별시 종로구 북촌로5길 48 (정독도서관 내)",
+    "lat": 37.5787,
+    "lng": 126.9856,
+    "baby": {
+      "nursingRoom": false,
+      "diaperStation": true,
+      "strollerRental": false,
+      "strollerAccess": null,
+      "note": "수유실·유모차 대여 없음. 기저귀교환대 있음."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 정보가 페이지에 없음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "월~금 09:00~18:00, 토·일 09:00~17:00 (매월 1·3째 수요일 휴무)",
+    "sourceUrl": "https://mom-mom.net/travel/places/62cd17c02718fee95297da4b",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "seoul-record-archive",
+    "name": "서울기록원",
+    "category": "기타",
+    "district": "은평구",
+    "address": "서울특별시 은평구 통일로62길 7",
+    "lat": 37.6221,
+    "lng": 126.9186,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "수유실·기저귀교환대 시설 목록에 있음. 유모차 이용 가능(대여 정보 없음)."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 정보가 페이지에 없음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "화~일 10:00~17:00, 월요일 휴무",
+    "sourceUrl": "https://mom-mom.net/travel/places/64d97daf067b0031e512b419",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "seoul-art-chaekbogo",
+    "name": "서울아트책보고 (고척스카이돔)",
+    "category": "도서관",
+    "district": "구로구",
+    "address": "서울특별시 구로구 경인로 430 고척스카이돔 B1",
+    "lat": 37.4983,
+    "lng": 126.867,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "수유실·기저귀교환대·주차 시설 목록. 유모차 진입 가능(대여 정보 없음)."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 정보가 페이지에 없음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "화~금 11:00~20:00, 토·일 10:00~20:00, 월요일 휴무",
+    "sourceUrl": "https://mom-mom.net/travel/places/63d3ae3f6e2efc966cf689c1",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "the-hyundai-seoul",
+    "name": "더현대서울",
+    "category": "백화점",
+    "district": "영등포구",
+    "address": "서울특별시 영등포구 여의대로 108 파크원",
+    "lat": 37.5256,
+    "lng": 126.9282,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "유아휴게실 내 수유실·기저귀교환대. 무료 유모차 대여 1층·5층(레고·디즈니스토어 페이지 기준)."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "현대백화점 공통 정책: 예방접종 완료된 개·고양이만 입장. 어깨 60cm 초과 또는 20kg 초과 견 불가(장애인보조견·퍼피워커 예외), 맹견 5종 불가. 캐리어·펫 유모차 권장. 식당·카페 및 수유실에는 반려동물 입장 불가.",
+      "confidence": "medium"
+    },
+    "hours": "매장 기준 10:30~20:00 (백화점 영업시간은 방문 전 확인)",
+    "sourceUrl": "https://www.ehyundai.com/mobile/newPortal/cs/pet01.do",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "lotte-world-mall",
+    "name": "롯데월드몰",
+    "category": "쇼핑몰",
+    "district": "송파구",
+    "address": "서울특별시 송파구 올림픽로 300",
+    "lat": 37.513,
+    "lng": 127.1025,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "4층 유아휴게실에 수유실·기저귀교환대. 유모차 대여 4층(만 6~24개월 무료 안내, 엘리베이터 앞)."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 동반 정책이 확인되지 않음. 방문 전 롯데몰 고객센터 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "매장별 상이 (롯데월드 아쿠아리움 월~목 10:00~20:00, 금~일 10:00~22:00)",
+    "sourceUrl": "https://mom-mom.net/travel/places/647fe58c6a510a72019606d8",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "coex-aquarium",
+    "name": "코엑스아쿠아리움",
+    "category": "기타",
+    "district": "강남구",
+    "address": "서울특별시 강남구 영동대로 513 코엑스",
+    "lat": 37.5121,
+    "lng": 127.0597,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "수유실·기저귀교환대·유모차 대여(페이지 기준)."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 정보가 페이지에 없음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "매일 10:00~20:00 (입장 마감 19:00)",
+    "sourceUrl": "https://mom-mom.net/travel/places/6364b8078fd7c8f1dcaac861",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "lotte-mall-gimpo-airport",
+    "name": "롯데몰 김포공항점",
+    "category": "쇼핑몰",
+    "district": "강서구",
+    "address": "서울특별시 강서구 하늘길 38 김포공항",
+    "lat": 37.5609,
+    "lng": 126.8017,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "롯데몰 GF층·MF층에 수유실·기저귀교환대. 유모차 대여는 서비스라운지(TGI프라이데이 앞)."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 정보가 페이지에 없음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "매일 10:30~22:00",
+    "sourceUrl": "https://mom-mom.net/travel/places/67e25167133a10b5f8f6f903",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "yeongpoong-bookstore-ifc",
+    "name": "영풍문고 여의도 IFC몰점",
+    "category": "기타",
+    "district": "영등포구",
+    "address": "서울특별시 영등포구 국제금융로 10 IFC몰 L2",
+    "lat": 37.5253,
+    "lng": 126.9251,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "수유실·기저귀교환대·유모차 대여 시설 목록."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 정보가 페이지에 없음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "월·화·수·금·토·일 10:00~22:00, 목요일 휴무",
+    "sourceUrl": "https://mom-mom.net/travel/places/67ce8b25d72f4eb571e6da00",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "jamsil-baseball-stadium",
+    "name": "잠실야구장 (잠실종합운동장)",
+    "category": "기타",
+    "district": "송파구",
+    "address": "서울특별시 송파구 올림픽로 19-2 서울종합운동장",
+    "lat": 37.5121,
+    "lng": 127.0719,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": false,
+      "strollerRental": true,
+      "strollerAccess": true,
+      "note": "중앙 출입구 2층 수유실. 기저귀교환대 미지원. 유모차 대여(3세 이하)."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 정보가 페이지에 없음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "경기일 기준: 월 휴무, 화 17:00~21:00, 수~금 18:30~21:00, 토 17:00~21:00, 일 14:00~21:00",
+    "sourceUrl": "https://mom-mom.net/travel/places/647d5abe6a510a72019606d0",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "taeyo-kids-cafe-boramae",
+    "name": "타요키즈카페 보라매점",
+    "category": "기타",
+    "district": "동작구",
+    "address": "서울특별시 동작구 보라매로5가길 16 보라매아카데미타워 6층",
+    "lat": 37.4997,
+    "lng": 126.9248,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": false,
+      "strollerAccess": null,
+      "note": "수유실·기저귀교환대 있음. 유모차 대여 없음."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 정보가 페이지에 없음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "평일 11:00~20:00, 토·일 10:00~20:00",
+    "sourceUrl": "https://mom-mom.net/travel/places/62cd18f82718fee95297e04f",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "seoul-kids-cafe-daebang",
+    "name": "서울형키즈카페 동작구 대방동점",
+    "category": "기타",
+    "district": "동작구",
+    "address": "서울특별시 동작구 여의대방로36길 11 동작구육아종합지원센터",
+    "lat": 37.5118,
+    "lng": 126.9265,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": false,
+      "strollerAccess": null,
+      "note": "수유실(기저귀 갈이대, 냉장고, 전자레인지) 있음. 유모차 대여 없음."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 정보가 페이지에 없음. 방문 전 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "회차제 09:30~11:30, 13:00~15:00, 15:30~17:30 (월요일·공휴일 휴관 — 페이지 표기 상충)",
+    "sourceUrl": "https://mom-mom.net/travel/places/654385b5f72c2b42c0756355",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "yeouido-hangang",
+    "name": "여의도한강공원",
+    "category": "공원",
+    "district": "영등포구",
+    "address": "서울특별시 영등포구 여의동로 330 일대",
+    "lat": 37.5284,
+    "lng": 126.934,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "수유실·기저귀교환대 위치를 확인하지 못함. 방문 전 한강공원 안내센터 확인. 수유실·기저귀교환대는 안내센터/화장실별로 달라요. 방문 전 한강공원 안내센터(120 다산콜)에 확인 권장."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "동물등록·광견병 예방접종 반려견만 입장, 인식표 부착, 맹견·질병견·발정견 불가. 2023년 3~4월 '반려인·반려견 임시쉼터'(수영장 휴게공간, 월요일 휴장) 기사 기준이며 현재 운영 여부는 미확인. 서울시 한강공원 조례(제17조) 기준 반려견은 줄 착용 및 배설물 수거 의무(과태료 5만원·7만원). 공원 안내상 목줄 착용 이용.",
+      "confidence": "medium"
+    },
+    "hours": "공원 상시 개방. 임시쉼터는 2023년 기준 10:00~17:00 (월요일·우천 시 휴장)",
+    "sourceUrl": "https://mediahub.seoul.go.kr/archives/2007205",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "banpo-hangang",
+    "name": "반포한강공원",
+    "category": "공원",
+    "district": "서초구",
+    "address": "서울특별시 서초구 신반포로 일대 한강공원(반포지구)",
+    "lat": 37.5117,
+    "lng": 126.9965,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "수유실·기저귀교환대 위치를 확인하지 못함. 방문 전 확인 필요. 수유실·기저귀교환대는 안내센터/화장실별로 달라요. 방문 전 한강공원 안내센터(120 다산콜)에 확인 권장."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 한강공원 조례(제17조) 기준 반려견은 줄 착용 및 배설물 수거 의무(과태료 5만원·7만원). 공원 안내상 목줄 착용 이용. 반포지구 전용 반려견 시설은 확인되지 않음.",
+      "confidence": "high"
+    },
+    "hours": "공원 상시 개방(시설별 상이)",
+    "sourceUrl": "https://hangang.seoul.go.kr/www/contents/651.do?mid=444",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "jamsil-hangang",
+    "name": "잠실한강공원",
+    "category": "공원",
+    "district": "송파구",
+    "address": "서울특별시 송파구 잠실동 일대 한강공원(잠실지구)",
+    "lat": 37.516,
+    "lng": 127.0831,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "공식 편의시설 안내(화장실 11곳, 매점 4곳, 주차장 4곳, 어린이놀이터 1곳 등)에 수유실·기저귀교환대 미기재. 잠실안내센터(02-3780-0511~4) 확인 필요. 수유실·기저귀교환대는 안내센터/화장실별로 달라요. 방문 전 한강공원 안내센터(120 다산콜)에 확인 권장."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 한강공원 조례(제17조) 기준 반려견은 줄 착용 및 배설물 수거 의무(과태료 5만원·7만원). 공원 안내상 목줄 착용 이용. 이용 수칙에 '애완동물과 동반할 때 목줄 매기'가 명시됨.",
+      "confidence": "high"
+    },
+    "hours": "공원 상시 개방(시설별 상이)",
+    "sourceUrl": "https://hangang.seoul.go.kr/www/contents/651.do?mid=444",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "mangwon-hangang",
+    "name": "망원한강공원",
+    "category": "공원",
+    "district": "마포구",
+    "address": "서울특별시 마포구 망원동 일대 한강공원",
+    "lat": 37.5553,
+    "lng": 126.8989,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "수유실·기저귀교환대 위치를 확인하지 못함. 방문 전 확인 필요. 수유실·기저귀교환대는 안내센터/화장실별로 달라요. 방문 전 한강공원 안내센터(120 다산콜)에 확인 권장."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 한강공원 조례(제17조) 기준 반려견은 줄 착용 및 배설물 수거 의무(과태료 5만원·7만원). 공원 안내상 목줄 착용 이용.",
+      "confidence": "high"
+    },
+    "hours": "공원 상시 개방(시설별 상이)",
+    "sourceUrl": "https://hangang.seoul.go.kr/www/contents/651.do?mid=444",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "nanji-hangang",
+    "name": "난지한강공원",
+    "category": "공원",
+    "district": "마포구",
+    "address": "서울특별시 마포구 난지동 일대 한강공원",
+    "lat": 37.567,
+    "lng": 126.8745,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "공식 안내에 수유실·기저귀교환대·유모차 대여 정보 없음(화장실 14곳, 편의점 2곳, 주차장 3곳, 어린이놀이터 1곳 기재). 방문 전 확인. 수유실·기저귀교환대는 안내센터/화장실별로 달라요. 방문 전 한강공원 안내센터(120 다산콜)에 확인 권장."
+    },
+    "dog": {
+      "allowed": true,
+      "note": "반려동물과 동반 시 목줄 착용(공원 이용 수칙). 공원 내 마포 반려동물 캠핑장과 반려견 놀이시설 운영(별도 항목). 서울시 한강공원 조례(제17조) 기준 반려견은 줄 착용 및 배설물 수거 의무(과태료 5만원·7만원). 공원 안내상 목줄 착용 이용.",
+      "confidence": "high"
+    },
+    "hours": "공원 상시 개방",
+    "sourceUrl": "https://hangang.seoul.go.kr/www/contents/672.do?mid=505",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "nanji-dog-camp",
+    "name": "마포 반려동물 캠핑장 (난지한강공원 내)",
+    "category": "공원",
+    "district": "마포구",
+    "address": "서울특별시 마포구 난지동 난지한강공원 내",
+    "lat": 37.5672,
+    "lng": 126.8738,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "기사에 수유실·화장실·기저귀교환대 언급 없음. 방문 전 서울시 공공서비스예약 누리집 또는 관리사무소 확인. 수유실·기저귀교환대는 안내센터/화장실별로 달라요. 방문 전 한강공원 안내센터(120 다산콜)에 확인 권장."
+    },
+    "dog": {
+      "allowed": true,
+      "note": "동물등록 반려견만 입장(내장칩·외장칩 인정), 예약자명과 동물등록번호 확인. 예약은 서울시 공공서비스예약 누리집에서만 가능(매달 26일 다음 달 예약 오픈, 이용 1일 전 16시까지). 대형견(체고 40cm 또는 15kg 이상) 운동장 최대 3마리, 중소형견 운동장 최대 25마리. 맹견 불가. 반려견 놀이시설은 예약 없이 무료 이용.",
+      "confidence": "high"
+    },
+    "hours": "화~일 11:00~22:00, 월요일 휴장 (2025년 서울시 기사 기준)",
+    "sourceUrl": "https://mediahub.seoul.go.kr/archives/2014951",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "yichon-hangang",
+    "name": "이촌한강공원",
+    "category": "공원",
+    "district": "용산구",
+    "address": "서울특별시 용산구 이촌동 일대 한강공원",
+    "lat": 37.5185,
+    "lng": 126.9705,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "수유실·기저귀교환대 위치를 확인하지 못함. 방문 전 확인 필요. 수유실·기저귀교환대는 안내센터/화장실별로 달라요. 방문 전 한강공원 안내센터(120 다산콜)에 확인 권장."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 한강공원 조례(제17조) 기준 반려견은 줄 착용 및 배설물 수거 의무(과태료 5만원·7만원). 공원 안내상 목줄 착용 이용.",
+      "confidence": "high"
+    },
+    "hours": "공원 상시 개방(시설별 상이)",
+    "sourceUrl": "https://hangang.seoul.go.kr/www/contents/651.do?mid=444",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "jamwon-hangang",
+    "name": "잠원한강공원",
+    "category": "공원",
+    "district": "서초구",
+    "address": "서울특별시 서초구 잠원동 일대 한강공원",
+    "lat": 37.5145,
+    "lng": 127.01,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "수유실·기저귀교환대 위치를 확인하지 못함. 방문 전 확인 필요. 수유실·기저귀교환대는 안내센터/화장실별로 달라요. 방문 전 한강공원 안내센터(120 다산콜)에 확인 권장."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 한강공원 조례(제17조) 기준 반려견은 줄 착용 및 배설물 수거 의무(과태료 5만원·7만원). 공원 안내상 목줄 착용 이용.",
+      "confidence": "high"
+    },
+    "hours": "공원 상시 개방(시설별 상이)",
+    "sourceUrl": "https://hangang.seoul.go.kr/www/contents/651.do?mid=444",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "gwangnaru-hangang",
+    "name": "광나루한강공원",
+    "category": "공원",
+    "district": "광진구",
+    "address": "서울특별시 광진구 광장동 일대 한강공원",
+    "lat": 37.5548,
+    "lng": 127.1506,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "수유실·기저귀교환대 위치를 확인하지 못함. 방문 전 확인 필요. 수유실·기저귀교환대는 안내센터/화장실별로 달라요. 방문 전 한강공원 안내센터(120 다산콜)에 확인 권장."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 한강공원 조례(제17조) 기준 반려견은 줄 착용 및 배설물 수거 의무(과태료 5만원·7만원). 공원 안내상 목줄 착용 이용.",
+      "confidence": "high"
+    },
+    "hours": "공원 상시 개방(시설별 상이)",
+    "sourceUrl": "https://hangang.seoul.go.kr/www/contents/651.do?mid=444",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "yanghwa-hangang",
+    "name": "양화한강공원",
+    "category": "공원",
+    "district": "마포구",
+    "address": "서울특별시 마포구 합정동 일대 한강공원",
+    "lat": 37.534,
+    "lng": 126.9005,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "수유실·기저귀교환대 위치를 확인하지 못함. 방문 전 확인 필요. 수유실·기저귀교환대는 안내센터/화장실별로 달라요. 방문 전 한강공원 안내센터(120 다산콜)에 확인 권장."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 한강공원 조례(제17조) 기준 반려견은 줄 착용 및 배설물 수거 의무(과태료 5만원·7만원). 공원 안내상 목줄 착용 이용.",
+      "confidence": "high"
+    },
+    "hours": "공원 상시 개방(시설별 상이)",
+    "sourceUrl": "https://hangang.seoul.go.kr/www/contents/651.do?mid=444",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "gangseo-hangang",
+    "name": "강서한강공원",
+    "category": "공원",
+    "district": "강서구",
+    "address": "서울특별시 강서구 방화동 일대 한강공원",
+    "lat": 37.565,
+    "lng": 126.823,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "수유실·기저귀교환대 위치를 확인하지 못함. 방문 전 확인 필요. 수유실·기저귀교환대는 안내센터/화장실별로 달라요. 방문 전 한강공원 안내센터(120 다산콜)에 확인 권장."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 한강공원 조례(제17조) 기준 반려견은 줄 착용 및 배설물 수거 의무(과태료 5만원·7만원). 공원 안내상 목줄 착용 이용.",
+      "confidence": "high"
+    },
+    "hours": "공원 상시 개방(시설별 상이)",
+    "sourceUrl": "https://hangang.seoul.go.kr/www/contents/651.do?mid=444",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "worldcup-park",
+    "name": "월드컵공원",
+    "category": "공원",
+    "district": "마포구",
+    "address": "서울특별시 마포구 상암동 월드컵공원 일대",
+    "lat": 37.5694,
+    "lng": 126.8993,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "노을공원 페이지 기준 인근 하늘공원 방문자센터 근처 수유실, 여자장애인 화장실 내 기저귀교환대 안내(2차 정보). 공원 전체 시설은 확인 필요."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 반려견 놀이터(24시간 무료, 동물등록 반려견, 중소형·대형 구역 분리, 배변봉투 지참). 노을공원 반려견 동반 캠핑장(숙박, 10월 개장 기사). 놀이터 외 구역은 목줄 착용.",
+      "confidence": "high"
+    },
+    "hours": "공원 상시 개방. 반려견 놀이터 24시간",
+    "sourceUrl": "https://mediahub.seoul.go.kr/archives/2012477",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "boramae-park",
+    "name": "보라매공원",
+    "category": "공원",
+    "district": "동작구",
+    "address": "서울특별시 동작구 여의대방로20마길 11 일대",
+    "lat": 37.4965,
+    "lng": 126.9218,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "수유실·화장실 정보 확인되지 않음(2017년 기사 기준 공원 편의 안내에 미기재)."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 반려견 놀이터 운영(무료, 동물등록 반려견만, 배변봉투 지참, 질병·사나운 개·발정견 입장 제한). 이용 조건은 기사별로 상이(목줄 없이 이용 안내 vs 목줄 지참 안내)하므로 현장 확인 필요.",
+      "confidence": "high"
+    },
+    "hours": "반려견 놀이터 24시간 개방(서울시 안내). 2017년 기사 기준 화~일 10:00~20:00, 월요일 휴장",
+    "sourceUrl": "https://mediahub.seoul.go.kr/archives/2012477",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "maeheon-citizens-forest",
+    "name": "매헌시민의숲",
+    "category": "공원",
+    "district": "서초구",
+    "address": "서울특별시 서초구 매헌로 99 (양재시민의숲)",
+    "lat": 37.4735,
+    "lng": 127.0372,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "맘맘 페이지와 기사에 수유실·기저귀교환대 정보 없음. 방문 전 확인 필요."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려견 놀이터(동물등록 반려견만 이용, 목줄·배변봉투 지참, 어깨높이 기준 소·중형 구역과 대형 구역 분리, 전염병·발정견·맹견 입장 불가). CCTV, 식수대 있음.",
+      "confidence": "high"
+    },
+    "hours": "공원 연중무휴 개방. 반려견 놀이터 화~일 10:00~18:00, 월요일 휴장 (2023년 기사 기준)",
+    "sourceUrl": "https://mediahub.seoul.go.kr/archives/2008195",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "lotte-main-store",
+    "name": "롯데백화점 본점",
+    "category": "백화점",
+    "district": "중구",
+    "address": "서울특별시 중구 남대문로 81",
+    "lat": 37.5636,
+    "lng": 126.9815,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "수유실·기저귀교환대 위치를 확인하지 못함. 롯데백화점 고객서비스 안내 확인 필요. 백화점 유아휴게실(수유실·기저귀교환대) 운영 — 층수는 안내데스크 문의."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "롯데 공식 정책: 예방접종 완료 개·고양이만 입장, 펫모차 또는 펫캐리어 이용 필수, 체고 60cm 또는 체중 20kg 이상 대형견 실내 입장 제한, 맹견 5종 불가. 식품관·F&B 매장·유아동 편의시설·라운지 출입 제한. 펫모차 대여는 예방접종 완료 15kg 이하 반려동물 대상.",
+      "confidence": "high"
+    },
+    "hours": "백화점 영업시간 방문 전 확인",
+    "sourceUrl": "https://www.lotteshopping.com/cscenter/pet",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "lotte-jamsil-department",
+    "name": "롯데백화점 잠실점 (잠실 에비뉴엘)",
+    "category": "백화점",
+    "district": "송파구",
+    "address": "서울특별시 송파구 올림픽로 300 롯데월드몰 잠실 에비뉴엘",
+    "lat": 37.5127,
+    "lng": 127.1003,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": null,
+      "note": "에비뉴엘 3층 유아휴게실에서 수유·기저귀 교환(맘맘 롯데갤러리 아트홀 잠실점 페이지 기준). 유모차 대여는 에비뉴엘 1층 서비스 공간, 24개월 이하 유아 동반 고객 대상."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "롯데 공식 정책: 예방접종 완료 개·고양이만, 펫모차·펫캐리어 이용 필수, 대형견(체고 60cm 또는 20kg 이상) 실내 입장 제한. 식품관·F&B·유아동 편의시설·라운지 출입 제한(수유·유아휴게실 반려동물 출입 불가). 펫모차 대여 지점에 잠실 포함.",
+      "confidence": "high"
+    },
+    "hours": "백화점 영업시간 방문 전 확인 (에비뉴엘 페이지 기준 10:30~19:00)",
+    "sourceUrl": "https://www.lotteshopping.com/cscenter/pet",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "hyundai-trade-center",
+    "name": "현대백화점 무역센터점",
+    "category": "백화점",
+    "district": "강남구",
+    "address": "서울특별시 강남구 테헤란로 517",
+    "lat": 37.5107,
+    "lng": 127.059,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": false,
+      "strollerAccess": null,
+      "note": "수유실·기저귀교환대 이용 가능(맘맘 매장 페이지 기준, 웹 게시 정보로 위치 상세 미확인, 4층 베이비 라운지 안내). 유모차 대여 없음."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "현대백화점 공통 정책(공식): 예방접종 완료 개·고양이만 입장, 어깨 60cm 또는 20kg 초과 견 입장 불가(장애인보조견 예외), 맹견 5종 불가, 캐리어·펫 유모차 권장. 식당·카페 및 수유실 반려동물 입장 불가.",
+      "confidence": "high"
+    },
+    "hours": "백화점 영업시간 방문 전 확인",
+    "sourceUrl": "https://www.ehyundai.com/mobile/newPortal/cs/pet01.do",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "hyundai-apgujeong",
+    "name": "현대백화점 압구정본점",
+    "category": "백화점",
+    "district": "강남구",
+    "address": "서울특별시 강남구 압구정로 165",
+    "lat": 37.527,
+    "lng": 127.0401,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": false,
+      "strollerAccess": true,
+      "note": "매장 내 유모차 대여 없음(맘맘 매장 페이지 기준). 지하 2층 유아휴게실 이용 가능성이 웹 자료에 있으나 확인되지 않음. 백화점 유아휴게실(수유실·기저귀교환대) 운영 — 층수는 안내데스크 문의."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "현대백화점 공통 정책(공식): 예방접종 완료 개·고양이만 입장, 어깨 60cm 또는 20kg 초과 견 입장 불가(장애인보조견 예외), 맹견 5종 불가, 캐리어·펫 유모차 권장. 식당·카페 및 수유실 반려동물 입장 불가.",
+      "confidence": "high"
+    },
+    "hours": "매일 10:30~20:00 (백화점 휴무일 제외, 맘맘 페이지 기준)",
+    "sourceUrl": "https://www.ehyundai.com/mobile/newPortal/cs/pet01.do",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "hyundai-mokdong",
+    "name": "현대백화점 목동점",
+    "category": "백화점",
+    "district": "양천구",
+    "address": "서울특별시 양천구 목동동로 257 현대하이페리온",
+    "lat": 37.5253,
+    "lng": 126.8752,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "수유실·기저귀교환대·유모차 대여 정보를 확인하지 못함. 방문 전 확인 필요. 백화점 유아휴게실(수유실·기저귀교환대) 운영 — 층수는 안내데스크 문의."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "현대백화점 공통 정책(공식): 예방접종 완료 개·고양이만 입장, 어깨 60cm 또는 20kg 초과 견 입장 불가(장애인보조견 예외), 맹견 5종 불가, 캐리어·펫 유모차 권장. 식당·카페 및 수유실 반려동물 입장 불가. 목동점에 대한 별도 안내는 확인하지 못해 점포별 확인 권장.",
+      "confidence": "medium"
+    },
+    "hours": "백화점 영업시간 방문 전 확인",
+    "sourceUrl": "https://www.ehyundai.com/mobile/newPortal/cs/pet01.do",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "shinsegae-gangnam",
+    "name": "신세계백화점 강남점",
+    "category": "백화점",
+    "district": "서초구",
+    "address": "서울특별시 서초구 신반포로 176 센트럴시티",
+    "lat": 37.5044,
+    "lng": 127.0045,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": true,
+      "strollerRental": true,
+      "strollerAccess": null,
+      "note": "백화점 내 수유실·기저귀교환대·유모차 대여 이용(맘맘 스누피플레이스 페이지 기준, 위치 상세 미확인)."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "반려동물 동반 정책을 확인하지 못함. 방문 전 신세계백화점 고객센터 확인 필요.",
+      "confidence": "low"
+    },
+    "hours": "월~목 10:30~20:00, 금~일 10:30~20:30 (스누피플레이스 기준, 백화점 영업시간 확인)",
+    "sourceUrl": "https://mom-mom.net/travel/places/672877c98fecbb765e143116",
+    "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "seodanggae-yeonnam",
+    "name": "서당개2년로스터스 연남점",
+    "category": "카페",
+    "district": "마포구",
+    "address": "서울특별시 마포구 동교로51길 129-6 1~4층",
+    "lat": 37.562,
+    "lng": 126.925,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": null,
+      "note": "기저귀교환대·수유실·아기의자 정보를 확인하지 못함."
+    },
+    "dog": {
+      "allowed": true,
+      "note": "반려동물 동반 가능(여행 블로그 기준). 반려견 동반 시 음료 20% 할인 안내. 동반 크기·구역 조건은 확인되지 않음.",
+      "confidence": "medium"
+    },
+    "hours": "10:00~24:00 (라스트오더 23:00)",
+    "sourceUrl": "https://www.trvlogue.com/ko/seodanggae-yeonnam-cafe-late-night",
+    "lastChecked": "2026-10-20"
+  }
+]
