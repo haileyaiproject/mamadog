@@ -1126,5 +1126,2730 @@
     "hours": "10:00~24:00 (라스트오더 23:00)",
     "sourceUrl": "https://www.trvlogue.com/ko/seodanggae-yeonnam-cafe-late-night",
     "lastChecked": "2026-10-20"
+  },
+  {
+    "id": "park-남산공원",
+    "name": "남산공원",
+    "category": "공원",
+    "district": "중구",
+    "address": "서울특별시 중구 삼일대로 231(예장동)",
+    "lat": 37.55308,
+    "lng": 126.981487,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 기반시설 : 광장 45950㎡ 도로 108530㎡ 산책로 6.7㎞ (북측:3.7㎞/남측:3.0㎞) 조경시설 : 연못 1개소(1078㎡) 파고라 분수대 그늘시렁 운. 수유실·기저귀교환대 정보는 공원 관리사무소(02-3783-5900)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://parks.seoul.go.kr/content.do?key=2604300012",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-길동생태공원",
+    "name": "길동생태공원",
+    "category": "공원",
+    "district": "강동구",
+    "address": "서울특별시 강동구 천호대로 1291(길동생태공원)",
+    "lat": 37.539081,
+    "lng": 127.153363,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 생태문화센터, 탐방객안내센터, 반딧불이 체험관, 목재데크, 조류관찰대. 수유실·기저귀교환대 정보는 공원 관리사무소(02-472-2770/ 02-489-2770)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://parks.seoul.go.kr/content.do?key=2604300010",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-진관근린공원구파발폭포",
+    "name": "진관근린공원(구파발폭포)",
+    "category": "공원",
+    "district": "은평구",
+    "address": "서울특별시 은평구 진관동 393",
+    "lat": 37.636839,
+    "lng": 126.919156,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 폭포 야외무대. 수유실·기저귀교환대 정보는 공원 관리사무소(02-351-8004)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-중마루근린공원",
+    "name": "중마루근린공원",
+    "category": "공원",
+    "district": "영등포구",
+    "address": "서울특별시 영등포구 영등포동2가 222",
+    "lat": 37.519859,
+    "lng": 126.911338,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 기반시설 : 광장 200㎡ 산책 등산로 0.50㎞ 편익시설 : 광장  의자 휴지통 음수대 공원등 등 편익시설 : 파고라 연못 1개소(150㎡) 그늘시렁 등 휴양시. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2670-3760)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-응봉공원대현산배수지공원",
+    "name": "응봉공원 (대현산배수지공원)",
+    "category": "공원",
+    "district": "성동구",
+    "address": "서울특별시 성동구 금호동1가 산1-72",
+    "lat": 37.556988,
+    "lng": 127.021332,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 조경시설 : 파고라 외 222소  운동시설 : 잔디광장 테니스장 2면 게이트볼장 배드민턴장 6면 다목적경기장 등  편익시설 : 음수대 화장실 2동 등  기타시설 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2293-7646)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://parks.seoul.go.kr/park/detailView.do?pIdx=17&key=2604070019",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-매화근린공원",
+    "name": "매화근린공원",
+    "category": "공원",
+    "district": "강서구",
+    "address": "서울특별시 강서구 등촌동 630-14",
+    "lat": 37.557478,
+    "lng": 126.86093,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 상징조형물 팔각정자 사각파고라 음수전 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2600-4181)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-성수근린공원",
+    "name": "성수근린공원",
+    "category": "공원",
+    "district": "성동구",
+    "address": "서울특별시 성동구 성수2가 3동 302-25",
+    "lat": 37.544733,
+    "lng": 127.05248,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 조경시설 : 그늘시렁 1개소 돌담 2개소(251.31M) 돌담 장식대 84개소 운동시설 : 농구장 176.6㎡ 편익시설 : 음수대 1개소 벤치 25개소 광장 70. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2286-5655)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-샛마을근린공원",
+    "name": "샛마을근린공원",
+    "category": "공원",
+    "district": "강동구",
+    "address": "서울특별시 강동구 명일1동 288",
+    "lat": 37.551094,
+    "lng": 127.146383,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 농구대 2개소 체력단련시설 놀이터 다목적운동장. 수유실·기저귀교환대 정보는 공원 관리사무소(02-3425-8820)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-여의도근린공원",
+    "name": "여의도근린공원",
+    "category": "공원",
+    "district": "영등포구",
+    "address": "서울특별시 영등포구 여의공원로 68 (여의도동)",
+    "lat": 37.526931,
+    "lng": 126.923348,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 건축물 : 8동 - 관리사무실(7.9㎡) 편의점3동(각 29.7㎡) 화장실7동(각104.28㎡)팔각정(27.72㎡) 사모정(8.91㎡) 공원지구대(264㎡) 공원. 수유실·기저귀교환대 정보는 공원 관리사무소(02-761-4078~9)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://parks.seoul.go.kr/content.do?key=2604300020",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-간데메근린공원",
+    "name": "간데메근린공원",
+    "category": "공원",
+    "district": "동대문구",
+    "address": "서울특별시 동대문구 서울시립대로2길 59(간데메공원)",
+    "lat": 37.572793,
+    "lng": 127.049127,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 화장실 1동, 팔각정 1개, 파고라 4동, 자전거보관대 1개소, 운동기구 12개, 놀이시설 3대, 조합놀이대 1대, 관리사무소 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2127-4772)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-훈련원근린공원",
+    "name": "훈련원근린공원",
+    "category": "공원",
+    "district": "중구",
+    "address": "서울특별시 중구 을지로 227",
+    "lat": 37.567501,
+    "lng": 127.00341,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 광장 2개소 야외의자 36기 운동기구 9기 종합체육관 화장실 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-3396-5852)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-영등포근린공원",
+    "name": "영등포근린공원",
+    "category": "공원",
+    "district": "영등포구",
+    "address": "서울특별시 영등포구 신길로 275",
+    "lat": 37.515316,
+    "lng": 126.910936,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 관리시설 : 관리사무소 공원등 안내판 조경시설 : 음악분수 파고라 연못 개울 벽천 잔디밭 운동시설 : 농구장 배드민턴장 풋살경기장 편익시설 : 주차장 공중전화 음. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2670-3764)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-천호근린공원",
+    "name": "천호근린공원",
+    "category": "공원",
+    "district": "강동구",
+    "address": "서울특별시 강동구 올림픽로 702(천호공원)",
+    "lat": 37.543807,
+    "lng": 127.125545,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 기반시설 : 광장   조경시설 : 연못 1개소   운동시설 : 배드민턴장 농구장 족구장 체력단련시설 등 교양시설 : 야외무대 1개소  편의시설 : 벤치(등받이) . 수유실·기저귀교환대 정보는 공원 관리사무소(02-474-2770/ 02-489-2776)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://parks.seoul.go.kr/content.do?key=2604300024",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-독립근린공원",
+    "name": "독립근린공원",
+    "category": "공원",
+    "district": "서대문구",
+    "address": "서울특별시 서대문구 통일로251(독립공원)",
+    "lat": 37.572839,
+    "lng": 126.958322,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 방문자센터(관리사무소 위치) 순국선열추념탑 서재필선생동상 독립관(순국선열 위패봉안소) 3?1독립선언기념탑 독립문 형무소 역사관 이진아기념도서관 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-3140-8305)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-낙산근린공원",
+    "name": "낙산근린공원",
+    "category": "공원",
+    "district": "종로구",
+    "address": "서울특별시 종로구 낙산길 41 (우) 03085",
+    "lat": 37.580445,
+    "lng": 127.007147,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 기반시설 : 관리도로 2920m 산책로 1010m 주차장 640㎡ 교양시설 : 역사탐방로 935m 비우당 27㎡ 홍덕이밭 50㎡ 건축시설 : 5동(전시및관리실 매. 수유실·기저귀교환대 정보는 공원 관리사무소(02-743-7985~6)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://parks.seoul.go.kr/content.do?key=2604300011",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-관악산공원",
+    "name": "관악산공원",
+    "category": "공원",
+    "district": "관악구",
+    "address": "서울특별시 관악구 관악로 1(관악산공원)",
+    "lat": 37.445077,
+    "lng": 126.963854,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 낙성대 연주대 삼막사 관음사 관악산호수. 수유실·기저귀교환대 정보는 공원 관리사무소(02-879-6521)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-효창근린공원",
+    "name": "효창근린공원",
+    "category": "공원",
+    "district": "용산구",
+    "address": "서울특별시 용산구 효창원로 177-18",
+    "lat": 37.545191,
+    "lng": 126.960224,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 관리시설 : 관리사무소 공원등 안내판 편의시설 : 매점 공중전화 화장실 음수대 야외탁자 의자 시계탑 조경시설 : 자연학습장 연못 데크로드 운동시설 : 농구장 배드. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2199-7607)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-감로천생태공원관악산",
+    "name": "감로천생태공원(관악산)",
+    "category": "공원",
+    "district": "금천구",
+    "address": "서울특별시 금천구 독산동 373 일대",
+    "lat": 37.468178,
+    "lng": 126.908084,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 생태연못 3개소 감로천별빛다리 목재데크길 야외운동기구 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2627-1655)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-개운산근린공원",
+    "name": "개운산근린공원",
+    "category": "공원",
+    "district": "성북구",
+    "address": "서울특별시 성북구 북악산로 949-73(돈암동 6-1)",
+    "lat": 37.596764,
+    "lng": 127.026066,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 공원이용지원센터 화장실 산책로(산마루길 목재데크산책로 오솔길 등) 자연학습장 지압보도 축구장 배드민턴장 족구장 정자 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2241-3667)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-개웅산근린공원",
+    "name": "개웅산근린공원",
+    "category": "공원",
+    "district": "구로구",
+    "address": "서울특별시 구로구 오류동 산13-1",
+    "lat": 37.487559,
+    "lng": 126.845788,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 배드민턴장 철봉 허리돌리기 역기 등 운동기구. 수유실·기저귀교환대 정보는 공원 관리사무소(02-860-3165)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-경희궁",
+    "name": "경희궁",
+    "category": "공원",
+    "district": "종로구",
+    "address": "서울특별시 종로구 새문안로 55(신문로2가 2-1)",
+    "lat": 37.570756,
+    "lng": 126.968766,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 자정전 흥화문 (서울특별시 유형문화재 제19호) 숭정전. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2148-2842)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-국립서울현충원",
+    "name": "국립서울현충원",
+    "category": "공원",
+    "district": "동작구",
+    "address": "서울특별시 동작구 현충로 210(동작동, 국립서울현충원)",
+    "lat": 37.499852,
+    "lng": 126.972342,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 현충탑, 현충관, 호국전시관, 충열대, 충성분수대, 무명용사 봉안실, 제1·2충혼당. 수유실·기저귀교환대 정보는 공원 관리사무소(02-1522-1555)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "1. 국문 : https://www.mvpa.go.kr/snmb/www/index.do\n2. 영문 : https://www.mvpa.go.kr/snmb/en/index.do\n3. 중국어 간체 : https://www.mvpa.go.kr/snmb/cn/index.do\n4. 중국어 번체 : https://www.mvpa.go.kr/snmb/zh/index.do\n5. 일문 : https://www.mvpa.go.kr/snmb/jp/index.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-계남근린공원",
+    "name": "계남근린공원",
+    "category": "공원",
+    "district": "양천구",
+    "address": "서울특별시 양천구 신정동 산44-2일대",
+    "lat": 37.512964,
+    "lng": 126.848287,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 장군정(정상) 1동 다목적구장(실내 배드민턴장) 생태연결통로(계남1, 2공원 연결) 야외무대 약수터 3개소 각종 운동시설(게이트볼장 족구장 등) 화장실 2개동 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2620-3576)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-고척근린공원",
+    "name": "고척근린공원",
+    "category": "공원",
+    "district": "구로구",
+    "address": "서울특별시 구로구 고척로45길 39(고척공원)",
+    "lat": 37.505959,
+    "lng": 126.852271,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 도서관 어린이놀이터 배드민턴장 테니스장 운동장 조깅트랙 구민체육센터 운동기구 농구장. 수유실·기저귀교환대 정보는 공원 관리사무소(02-860-2396)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-파리근린공원",
+    "name": "파리근린공원",
+    "category": "공원",
+    "district": "양천구",
+    "address": "서울특별시 양천구 목동동로 363",
+    "lat": 37.534764,
+    "lng": 126.876876,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 분수(벽천 무지개 분수 곡사분수 바닥분수) 자수화단 야외무대 모형 에펠탑 각종 운동시설(건강라운지) 관리사무소(화장실) 1개동 등 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2620-3576)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-허준공원",
+    "name": "허준공원",
+    "category": "공원",
+    "district": "강서구",
+    "address": "서울특별시 강서구 허준로5길 42",
+    "lat": 37.567591,
+    "lng": 126.853752,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 연못(5100㎡) 정자 어린이 놀이 시설 허준 동상 음악분수 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2600-4186)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-궁동근린공원",
+    "name": "궁동근린공원",
+    "category": "공원",
+    "district": "서대문구",
+    "address": "서울특별시 서대문구 성산로7길 19-24(궁동공원)",
+    "lat": 37.571296,
+    "lng": 126.925159,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 조경시설 : 파고라 3동 편의시설 : 실내체육관 1동 정자 2동 평의자 30조 관리시설 : 종합안내판 1조 초화류안내판 2개 기반시설 : 도로 산책로 등 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-330-1965)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-궁산근린공원",
+    "name": "궁산근린공원",
+    "category": "공원",
+    "district": "강서구",
+    "address": "서울특별시 강서구 가양동 산4-7",
+    "lat": 37.573744,
+    "lng": 126.840508,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 소악루 양천고성지 양천향교 자연학습탐방로 사진촬영전망대 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2600-4185)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-까치산근린공원",
+    "name": "까치산근린공원",
+    "category": "공원",
+    "district": "동작구",
+    "address": "서울특별시 동작구 사당동 산32",
+    "lat": 37.4845,
+    "lng": 126.963479,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 임당 정공 신도비 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-820-1385)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-꿩고개근린공원",
+    "name": "꿩고개근린공원",
+    "category": "공원",
+    "district": "강서구",
+    "address": "서울특별시 강서구 방화동 산110",
+    "lat": 37.579866,
+    "lng": 126.817711,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 게이트볼장 정자 지압로 약수터음수전 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2600-4186)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-노량진공원",
+    "name": "노량진공원",
+    "category": "공원",
+    "district": "동작구",
+    "address": "서울특별시 동작구 대방동 519(여의대방로44길 39)",
+    "lat": 37.507062,
+    "lng": 126.928005,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 조깅트랙 다목적운동장 공군충혼탑 장애인운동시설 테니스장 산책로 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-820-1383)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-답십리근린공원",
+    "name": "답십리근린공원",
+    "category": "공원",
+    "district": "동대문구",
+    "address": "서울특별시 동대문구 답십리로 209(답십리공원)",
+    "lat": 37.573854,
+    "lng": 127.063859,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 휴게소 5개소 그늘시렁 6동 종합체육시설 배드민턴장 문화회관. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2127-4772)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-대모산도시자연공원",
+    "name": "대모산도시자연공원",
+    "category": "공원",
+    "district": "강남구",
+    "address": "서울특별시 강남구 광평로10길 30-71(대모산공원)",
+    "lat": 37.479722,
+    "lng": 127.074596,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 화장실 1동 약수터 1개소 편익시설 44개 다목적 운동장 1개소 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-3423-6283)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-탑골근린공원",
+    "name": "탑골근린공원",
+    "category": "공원",
+    "district": "종로구",
+    "address": "서울특별시 종로구 종로 99",
+    "lat": 37.571316,
+    "lng": 126.98831,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 원각사지10층석탑 팔각정 3.1운동기념탑 손병희선생 동상 한용운선생 기념비 우물 편의시설 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2148-2843)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-갈산근린공원",
+    "name": "갈산근린공원",
+    "category": "공원",
+    "district": "양천구",
+    "address": "서울특별시 양천구 신정동 162-56",
+    "lat": 37.50651,
+    "lng": 126.868782,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 갈산정(정상) 1동 교통교육관 및 전시물 교통안전교육 체험장 어린이놀이터 멀티코트장 등 중심광장 전망대 각종 운동시설 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2620-3576)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-천마근린공원",
+    "name": "천마근린공원",
+    "category": "공원",
+    "district": "송파구",
+    "address": "서울특별시 송파구 마천동 산 1-1",
+    "lat": 37.499828,
+    "lng": 127.157478,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 어린이안전공원 축구장 배드민턴장 체력단련장 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-400-0978)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-도곡근린공원",
+    "name": "도곡근린공원",
+    "category": "공원",
+    "district": "강남구",
+    "address": "서울특별시 강남구 도곡동 산31-1",
+    "lat": 37.490284,
+    "lng": 127.045069,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 배드민턴장 약수터 화장실 정자 다목적 운동장 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-3423-6248)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-도산근린공원",
+    "name": "도산근린공원",
+    "category": "공원",
+    "district": "강남구",
+    "address": "서울특별시 강남구 도산대로45길 20(도산공원)",
+    "lat": 37.524637,
+    "lng": 127.035022,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 도산묘소 동상 도산기념관 화장실 그늘시렁 운동시설 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-3423-6244)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-청량공원",
+    "name": "청량공원",
+    "category": "공원",
+    "district": "성북구",
+    "address": "서울특별시 성북구 화랑로18가길 50",
+    "lat": 37.604404,
+    "lng": 127.051285,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 어른신건강마당 진입광장 휴식광장 입구연못 파고라 조경수원 목교 전망테크 산림종합전시관 야외학습장 도서관 공연장 건강마당 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2241-3683)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-초안산근린공원",
+    "name": "초안산근린공원",
+    "category": "공원",
+    "district": "도봉구",
+    "address": "서울특별시 도봉구 창동 산157",
+    "lat": 37.648803,
+    "lng": 127.041058,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 잔디광장 계류 생태연못 녹지대 음수대 생활체육시설 산책로 등 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2091-3754)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-동명근린공원",
+    "name": "동명근린공원",
+    "category": "공원",
+    "district": "강동구",
+    "address": "서울특별시 강동구 고덕2동 229",
+    "lat": 37.559685,
+    "lng": 127.167667,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 축구장 족구장 배구장 배드민턴장 농구장 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-3425-8820)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-마로니에공원",
+    "name": "마로니에공원",
+    "category": "공원",
+    "district": "종로구",
+    "address": "서울특별시 종로구 대학로8길 1",
+    "lat": 37.580664,
+    "lng": 127.002456,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 야외무대 분수대 조합놀이대 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2148-2843)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-자매근린공원",
+    "name": "자매근린공원",
+    "category": "공원",
+    "district": "영등포구",
+    "address": "서울특별시 영등포구 의사당대로 166 (우) 07324",
+    "lat": 37.517728,
+    "lng": 126.930644,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 앙카라하우스 조형물 파고라4개소 배드민턴장 게이트볼장 화장실 관리실 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2670-3764)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-장지근린공원",
+    "name": "장지근린공원",
+    "category": "공원",
+    "district": "송파구",
+    "address": "서울특별시 송파구 장지동 산 11번지",
+    "lat": 37.482385,
+    "lng": 127.129465,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 휴게광장 체력단련장 배드민턴장 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-400-0978)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-명일근린공원",
+    "name": "명일근린공원",
+    "category": "공원",
+    "district": "강동구",
+    "address": "서울특별시 강동구 상일동 135",
+    "lat": 37.552598,
+    "lng": 127.160291,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 생태연못 초가정자 바닥분수 계류 벽천 어린이놀이터 돌무더기 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-3425-6445)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-방화근린공원",
+    "name": "방화근린공원",
+    "category": "공원",
+    "district": "강서구",
+    "address": "서울특별시 강서구 금낭화로 176(방화공원)",
+    "lat": 37.581774,
+    "lng": 126.813547,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 다목적운동장 체육시설 원형광장 연못 분수대 어린이놀이터 산책로 파고라 휴게소 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2600-4186)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-아시아근린공원",
+    "name": "아시아근린공원",
+    "category": "공원",
+    "district": "송파구",
+    "address": "서울특별시 송파구 올림픽로 44 (잠실동)",
+    "lat": 37.510336,
+    "lng": 127.076526,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 송파문화예술회관 야외공연장 부리도 기념비 시와 그림의 광장. 수유실·기저귀교환대 정보는 공원 관리사무소(02-412-0270)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-배봉산근린공원",
+    "name": "배봉산근린공원",
+    "category": "공원",
+    "district": "동대문구",
+    "address": "서울특별시 동대문구 한천로43길 12-14(배봉산공원)",
+    "lat": 37.582088,
+    "lng": 127.06565,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 인공폭포, 야외무대관리사무실 어린이놀이터 약수터 산책로 체육시설 자연학습장 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2127-4772)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-안산도시자연공원",
+    "name": "안산도시자연공원",
+    "category": "공원",
+    "district": "서대문구",
+    "address": "서울특별시 서대문구 홍제동 산33-98",
+    "lat": 37.579593,
+    "lng": 126.938585,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 조경시설 : 팔각정자 야외탁자 조합놀이대 등 편의시설 : 화장실 약수터 등 관리시설 : 관리사무소 공원등 안내판 등 기반시설 : 만남의광장 산책로 등 연희숲속쉼터. 수유실·기저귀교환대 정보는 공원 관리사무소(02-330-1965)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-염창근린공원",
+    "name": "염창근린공원",
+    "category": "공원",
+    "district": "강서구",
+    "address": "서울특별시 강서구 염창동 산24-1",
+    "lat": 37.558464,
+    "lng": 126.867962,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 골프연습장 스포츠센타. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2600-4186)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-백련근린공원",
+    "name": "백련근린공원",
+    "category": "공원",
+    "district": "서대문구",
+    "address": "서울특별시 서대문구 통일로 507-22(백련공원)",
+    "lat": 37.592686,
+    "lng": 126.92886,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 조경시설 : 정자 파고라 조합놀이대 등  편의시설 : 청소년수련관 문화체육회관 화장실 음수대 등  관리시설 : 종합안내판 관리사무소 등  기반시설 : 도로 산책로. 수유실·기저귀교환대 정보는 공원 관리사무소(02-330-1965)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-오금근린공원",
+    "name": "오금근린공원",
+    "category": "공원",
+    "district": "송파구",
+    "address": "서울특별시 송파구 오금로 363 오금근린공원",
+    "lat": 37.50049,
+    "lng": 127.131621,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 곰두리체육센터 송파도서관 테니스장 배드민턴장 게이트볼장 자연학습관찰로 삼림욕장 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-400-0978)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-오동근린공원",
+    "name": "오동근린공원",
+    "category": "공원",
+    "district": "강북구",
+    "address": "서울특별시 강북구 번동 산20-1",
+    "lat": 37.631891,
+    "lng": 127.030846,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설:    - 체력단련시설 86개소 382기    - 배드민턴장 18개소 66면    - 정자 11개소, 화장실 10개소(발효식 7, 수세식 3)    - 북서울꿈의숲. 수유실·기저귀교환대 정보는 공원 관리사무소(02-901-6929)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-봉산도시자연공원",
+    "name": "봉산도시자연공원",
+    "category": "공원",
+    "district": "은평구",
+    "address": "서울특별시 은평구 구산동 산61",
+    "lat": 37.608392,
+    "lng": 126.911776,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 산책로9㎞ 전시관 1동 운동시설. 수유실·기저귀교환대 정보는 공원 관리사무소(02-351-8003)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-온수도시자연공원",
+    "name": "온수도시자연공원",
+    "category": "공원",
+    "district": "구로구",
+    "address": "서울특별시 구로구 개봉동 산2-60",
+    "lat": 37.502044,
+    "lng": 126.840335,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 배드민턴장 체력단련장 철봉 허리돌리기 등 운동기구. 수유실·기저귀교환대 정보는 공원 관리사무소(02-860-2396)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-봉은공원",
+    "name": "봉은공원",
+    "category": "공원",
+    "district": "강남구",
+    "address": "서울특별시 강남구 삼성동 75",
+    "lat": 37.514433,
+    "lng": 127.057181,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 奉恩寺 도심 한가운데 있는 奉恩寺는 그 외형적 규모뿐 아니라 역사적으로 서울의 대표적인 사찰로 알려져 있다. 일제시대에는 서울과 경기 일원의 80여 사찰을 관장하. 수유실·기저귀교환대 정보는 공원 관리사무소(02-3423-6244)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-와룡근린공원",
+    "name": "와룡근린공원",
+    "category": "공원",
+    "district": "종로구",
+    "address": "서울특별시 종로구 와룡공원길 192 (우) 03063",
+    "lat": 37.591398,
+    "lng": 126.992931,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 말바위 테니스장 노천탕. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2148-2842)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-봉화산근린공원",
+    "name": "봉화산근린공원",
+    "category": "공원",
+    "district": "중랑구",
+    "address": "서울특별시 중랑구 묵동 산46-1",
+    "lat": 37.609175,
+    "lng": 127.087256,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 봉수대 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-435-0069)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-북악산도시자연공원",
+    "name": "북악산도시자연공원",
+    "category": "공원",
+    "district": "종로구",
+    "address": "서울특별시 종로구 부암동 산2-6",
+    "lat": 37.593445,
+    "lng": 126.97367,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 현재 북악은 청와대가 있어 일반인의 등산이 금지되어 있으나 1967년까지는 청와대 뒤의 북악 일대도 가벼운 등산길이었다. 그러나 1968년 1월 21일 북한 무장. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2148-2835)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-북한산국립공원",
+    "name": "북한산국립공원",
+    "category": "공원",
+    "district": "강북구 등",
+    "address": "서울특별시 강북구, 도봉구, 서대문구, 성북구, 은평구, 종로구 일대  경기도 고양시, 양주시, 의정부시 일대",
+    "lat": 37.631942,
+    "lng": 126.975016,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "수유실·기저귀교환대 정보는 공원 관리사무소(02-909-0497~8)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://www.knps.or.kr/front/portal/visit/visitCourseMain.do?parkId=121500&menuNo=7020092",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-외국인묘지공원",
+    "name": "외국인묘지공원",
+    "category": "공원",
+    "district": "마포구",
+    "address": "서울특별시 마포구 양화진길 46(외국인묘지공원)",
+    "lat": 37.546528,
+    "lng": 126.911372,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 묘지 517기 휴게시설 편의시설 녹지대. 수유실·기저귀교환대 정보는 공원 관리사무소(02-3153-9554)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-불광근린공원",
+    "name": "불광근린공원",
+    "category": "공원",
+    "district": "은평구",
+    "address": "서울특별시 은평구 불광동 산33-1",
+    "lat": 37.617082,
+    "lng": 126.930029,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 도서관 산책로 실외배드민턴장 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-351-8004)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-불암산도시자연공원",
+    "name": "불암산도시자연공원",
+    "category": "공원",
+    "district": "노원구",
+    "address": "서울특별시 노원구 한글비석로12길 51-33(불암산공원)",
+    "lat": 37.6638,
+    "lng": 127.093097,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 등산로 및 휴게시설. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2116-3943)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-용마폭포공원",
+    "name": "용마폭포공원",
+    "category": "공원",
+    "district": "중랑구",
+    "address": "서울특별시 중랑구 면목동 산1-4",
+    "lat": 37.573387,
+    "lng": 127.089167,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 광장 4개소 노인정 수영장 용마폭포공원 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2094-2965)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-사육신공원",
+    "name": "사육신공원",
+    "category": "공원",
+    "district": "동작구",
+    "address": "서울특별시 동작구 노량진로 191",
+    "lat": 37.513712,
+    "lng": 126.948918,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 사육신묘 의절사 불이문 홍살문 비각 산책로. 수유실·기저귀교환대 정보는 공원 관리사무소(02-820-1395)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-용왕산근린공원",
+    "name": "용왕산근린공원",
+    "category": "공원",
+    "district": "양천구",
+    "address": "서울특별시 양천구 목동 199-51",
+    "lat": 37.542809,
+    "lng": 126.877542,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 용왕정 1동(정도600년 기념 건립) , 다목적구장 6000㎡ 조깅코스 400m, 실내배드민턴장 1개소 게이트볼장1개소 어린이 놀이터1개소 약수터2개소 각종 운동. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2620-3574)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-사직근린공원",
+    "name": "사직근린공원",
+    "category": "공원",
+    "district": "종로구",
+    "address": "서울특별시 종로구 사직로9길 5",
+    "lat": 37.576037,
+    "lng": 126.968528,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 사직단 단군성전 황학정 어린이도서관 종로시립도서관 수영장. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2148-2836)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-우장산근린공원",
+    "name": "우장산근린공원",
+    "category": "공원",
+    "district": "강서구",
+    "address": "서울특별시 강서구 내발산동 산4-5",
+    "lat": 37.551369,
+    "lng": 126.842198,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 강서구민회관 서울정보기능대학 운동장(인조잔디구장조깅트랙) 테니스장 트림코스장 조각의 거리 야외무대 국궁장 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2600-4185)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-삼일근린공원",
+    "name": "삼일근린공원",
+    "category": "공원",
+    "district": "동작구",
+    "address": "서울특별시 동작구 사당동 산24-17",
+    "lat": 37.486088,
+    "lng": 126.974323,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 삼일공원비 삼일공원 산책길 삼일공원 놀이터. 수유실·기저귀교환대 정보는 공원 관리사무소(02-820-1384)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-삼청근린공원",
+    "name": "삼청근린공원",
+    "category": "공원",
+    "district": "종로구",
+    "address": "서울특별시 종로구 북촌로 134-1 (우) 03050",
+    "lat": 37.591683,
+    "lng": 126.982232,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 삼청동문(암각) 배드민턴장 테니스장 어린이 놀이터 다목적 공터 및 매점 등 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2148-2842)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-인왕산도시자연공원",
+    "name": "인왕산도시자연공원",
+    "category": "공원",
+    "district": "종로구",
+    "address": "서울특별시 종로구 옥인동 산 3-1",
+    "lat": 37.584196,
+    "lng": 126.964025,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 인왕사 선바위 국사당 인왕천 만수천 석굴암약수터. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2148-2832)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-상도근린공원",
+    "name": "상도근린공원",
+    "category": "공원",
+    "district": "동작구",
+    "address": "서울특별시 동작구 성대로6사길 27-6(상도공원)",
+    "lat": 37.493258,
+    "lng": 126.940095,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 배드민턴장 생활체육시설 약수터 산책로. 수유실·기저귀교환대 정보는 공원 관리사무소(02-820-1385)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-일자산근린공원",
+    "name": "일자산근린공원",
+    "category": "공원",
+    "district": "강동구",
+    "address": "서울특별시 강동구 동남로 660(일자산공원)",
+    "lat": 37.537468,
+    "lng": 127.160108,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 실내배드민턴장 실내체육관 산책로 X-게임장 잔디광장 인공폭포. 수유실·기저귀교환대 정보는 공원 관리사무소(02-3425-6447)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-쌍문근린공원",
+    "name": "쌍문근린공원",
+    "category": "공원",
+    "district": "도봉구",
+    "address": "서울특별시 도봉구 쌍문동 산80",
+    "lat": 37.653393,
+    "lng": 127.027514,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 산책등산로 정자 약수터 화장실 테니스장 배구장 배드민턴장 문화센터 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2091-3754)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-수락산도시자연공원",
+    "name": "수락산도시자연공원",
+    "category": "공원",
+    "district": "노원구",
+    "address": "서울특별시 노원구 상계동 산3-1",
+    "lat": 37.679595,
+    "lng": 127.076896,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 등산로 및 휴게시설. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2116-3966 )에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-송파나루근린공원석촌호수",
+    "name": "송파나루근린공원(석촌호수)",
+    "category": "공원",
+    "district": "송파구",
+    "address": "서울특별시 송파구 잠실로 148 (잠실동)",
+    "lat": 37.508839,
+    "lng": 127.100424,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 휴게소 서울놀이마당 매직아일랜드 석촌호수. 수유실·기저귀교환대 정보는 공원 관리사무소(02-400-3595)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-선유도근린공원",
+    "name": "선유도근린공원",
+    "category": "공원",
+    "district": "영등포구",
+    "address": "서울특별시 영등포구 선유로 343 (당산동 1) 선유도공원관리사무소",
+    "lat": 37.543668,
+    "lng": 126.900848,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 녹색기둥의 정원 시간의 정원 수질정화원 수생식물원 선유정 네개의 원형공간 카페테리아나루 선유교 전망데크. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2631-9367)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://parks.seoul.go.kr/content.do?key=2604300018",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-손기정체육공원",
+    "name": "손기정체육공원",
+    "category": "공원",
+    "district": "중구",
+    "address": "서울특별시 중구 손기정로 101",
+    "lat": 37.555792,
+    "lng": 126.964724,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 손기정기념관 문화도서관 테니스장 게이트볼장 어린이놀이터 화장실 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-3396-5854)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-성북근린공원",
+    "name": "성북근린공원",
+    "category": "공원",
+    "district": "성북구",
+    "address": "서울특별시 성북구 돈암동 616-1055",
+    "lat": 37.596228,
+    "lng": 127.006863,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 생태연못 전망대 휴게광장 나무집 야외학습장 바닥분수 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2241-3683)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-봉제산공원",
+    "name": "봉제산공원",
+    "category": "공원",
+    "district": "강서구",
+    "address": "서울특별시 강서구 화곡동 산41-6",
+    "lat": 37.543104,
+    "lng": 126.855124,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 법성사 용문사 약수터 배드민턴장. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2600-4184)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-서울창포원",
+    "name": "서울창포원",
+    "category": "공원",
+    "district": "도봉구",
+    "address": "서울특별시 도봉구 마들로 916(서울창포원)",
+    "lat": 37.689595,
+    "lng": 127.047265,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 붓꽃원 약용식물원 수변식물원초화원. 방문자센터 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-954-0031)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://parks.seoul.go.kr/content.do?key=2604300018",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-중랑캠핑숲",
+    "name": "중랑캠핑숲",
+    "category": "공원",
+    "district": "중랑구",
+    "address": "서울특별시 중랑구 송림길 160(중랑캠핑숲)/중랑구 망우동 74(청소년체험의숲)",
+    "lat": 37.606244,
+    "lng": 127.108919,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 조경시설  수경시설 : 2900㎡(분수연못 1120 테라스연못 440 계류 720 건천 620) 잔디광장 : 5000㎡(청소년문화존/Wi-Fi) 산 책 로 : 1. 수유실·기저귀교환대 정보는 공원 관리사무소(02-435-7168~9)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://parks.seoul.go.kr/content.do?key=2604300023",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-솔밭근린공원",
+    "name": "솔밭근린공원",
+    "category": "공원",
+    "district": "강북구",
+    "address": "서울특별시 강북구 우이동 80번지 일대",
+    "lat": 37.652711,
+    "lng": 127.011764,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설:    - 조경시설: 생태연못, 그늘시렁, 산책로, 데크광장 등     - 운동시설: 배드민턴장(6면), 운동시설(27점) 등     - 어린이놀이터: 2개소   . 수유실·기저귀교환대 정보는 공원 관리사무소(02-901-6953)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-금천체육공원관악산",
+    "name": "금천체육공원(관악산)",
+    "category": "공원",
+    "district": "금천구",
+    "address": "서울특별시 금천구 독산동 산118-4 일대 (금천체육공원)",
+    "lat": 37.468012,
+    "lng": 126.90836,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 전망대 목재데크길 다목적운동장 농구장 배드민턴장 간이무대 조합놀이대 황톳길 지압로 야외운동기구 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2627-1655)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-금천폭포근린공원",
+    "name": "금천폭포근린공원",
+    "category": "공원",
+    "district": "금천구",
+    "address": "서울특별시 금천구 시흥대로38길 61(시흥동 937-2)",
+    "lat": 37.44655,
+    "lng": 126.904258,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 문화회관 2020㎡ 인공폭포(L30 x H12m) 공원시설 전망대 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2627-1657 )에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-만수천공원관악산",
+    "name": "만수천공원(관악산)",
+    "category": "공원",
+    "district": "금천구",
+    "address": "서울특별시 금천구 독산동 산8 일대",
+    "lat": 37.474509,
+    "lng": 126.909593,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 체육시설 : 생활체육시설 독산테니스장(8면) 배드민턴장(2개소) 다목적 광장 편익시설 : 정자(3동) 화장실(2개소) 만수천 약수터. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2627-1662)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-발바닥공원",
+    "name": "발바닥공원",
+    "category": "공원",
+    "district": "도봉구",
+    "address": "서울특별시 도봉구 시루봉로6길 33",
+    "lat": 37.659597,
+    "lng": 127.029546,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 기반시설 : 산책로 조경시설 : 관상용식수대 그늘시렁 연못 휴양시설 : 정자 운동시설 : 체력단련시설 편익시설 : 화장실 지압보도 관리시설 : 도봉환경교실. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2091-3772)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-용두근린공원",
+    "name": "용두근린공원",
+    "category": "공원",
+    "district": "동대문구",
+    "address": "서울특별시 동대문구 용두동 34-1번지 일대",
+    "lat": 37.573206,
+    "lng": 127.039167,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 조경시설 : 연못 분수 그늘시렁 편의시설 : 음수대 휴게소 야외전시장 관리시설 : 공원안내판 관리동 기반시설 : 스마트쉼터, 도로 진입광장 휴게광장 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2127-4775)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-상암근린공원",
+    "name": "상암근린공원",
+    "category": "공원",
+    "district": "마포구",
+    "address": "서울특별시 마포구 상암동 1761",
+    "lat": 37.576897,
+    "lng": 126.885828,
+    "baby": {
+      "nursingRoom": true,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 조경시설 : 생태연못 생태습지 암석원 그늘시렁 정자 등 편의시설 : 화장실 연식의자 등 관리시설 : 종합안내판 공원등 관리사무소 모유수유실 유모차대여소 등 기반시. 수유실·기저귀교환대 정보는 공원 관리사무소(02-3153-9553)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-와우근린공원",
+    "name": "와우근린공원",
+    "category": "공원",
+    "district": "마포구",
+    "address": "서울특별시 마포구 창전동 3-193번지 일대(홍익대 뒷산)",
+    "lat": 37.552446,
+    "lng": 126.930137,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 배드민턴장 약수터 농구장 조깅트랙 체력단련장 지압보도 광장. 수유실·기저귀교환대 정보는 공원 관리사무소(02-3153-9553)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-금호근린공원",
+    "name": "금호근린공원",
+    "category": "공원",
+    "district": "성동구",
+    "address": "서울특별시 성동구 장터1길 18",
+    "lat": 37.549507,
+    "lng": 127.018976,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 체육관 경로당 청소년 문화회관 어린이집 그늘시렁 음수대 평의자 등의자 운동시설물 공원등 종합안내간판 등 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2286-5655)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-달맞이근린공원",
+    "name": "달맞이근린공원",
+    "category": "공원",
+    "district": "성동구",
+    "address": "서울특별시 성동구 옥수동 산1-1",
+    "lat": 37.543758,
+    "lng": 127.020893,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 경로당 어린이놀이터 배드민턴장 화장실 음수대 공원등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2286-5655)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-문정근린공원",
+    "name": "문정근린공원",
+    "category": "공원",
+    "district": "송파구",
+    "address": "서울특별시 송파구 문정동 18-4",
+    "lat": 37.487859,
+    "lng": 127.130521,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 조경시설 : 바닥분수 초가정자 사각정자 휴게벤치 등 기반시설 : 경화토포장로 마사토산책로 등 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-400-0978)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-문화예술공원",
+    "name": "문화예술공원",
+    "category": "공원",
+    "district": "서초구",
+    "address": "서울특별시 서초구 바우뫼로12길 40 (양재동)",
+    "lat": 37.466704,
+    "lng": 127.030486,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 놀이마당 중앙광장 잔디광장 야외무대 원두막 1동 조각작품 12개소 모래놀이터 등 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2155-6865)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-세종로공원",
+    "name": "세종로공원",
+    "category": "공원",
+    "district": "종로구",
+    "address": "서울특별시 종로구 세종대로 189 (우) 03172",
+    "lat": 37.573562,
+    "lng": 126.975936,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 휴게?편익공간 : 야외무대 382㎡ 매점 18㎡ 디자인파라솔 2개소 야외테이블 14개 등 상징광장 : 조선시대 사헌부 및 병조터 흔적복원 490㎡ 한글글자마당 :. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2148-2843 )에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-샘말공원관악산근린공원샘말지구",
+    "name": "샘말공원(관악산근린공원 샘말지구)",
+    "category": "공원",
+    "district": "관악구",
+    "address": "서울특별시 관악구 대학동 산63-1일대 샘말공원",
+    "lat": 37.464172,
+    "lng": 126.938444,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 음수대, 화장실, 세족대, 황톳길, 휴게시설, 바닥분수, 어린이놀이시설, 생활체육시설, 유아숲체험원. 수유실·기저귀교환대 정보는 공원 관리사무소(02-879-6525)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-초안산생태공원",
+    "name": "초안산생태공원",
+    "category": "공원",
+    "district": "도봉구",
+    "address": "서울특별시 도봉구 창동 산24",
+    "lat": 37.648803,
+    "lng": 127.041058,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 조경시설 : 잔디광장 계류 생태연못 녹지대 편의시설 : 음수대 유희시설 : 조합놀이대 시소 그네 운동시설 : 생활체육시설 관리시설 : CCTV 공원등 공원안내판 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2091-3754)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-푸른수목원",
+    "name": "푸른수목원",
+    "category": "공원",
+    "district": "구로구",
+    "address": "서울특별시 구로구 서해안로 2117(항동81-1) 푸른수목원관리사무소",
+    "lat": 37.482579,
+    "lng": 126.823525,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: KB숲교육센터,20개의 주제정원,항동저수지,잔디마당,편의시설. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2686-3200)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://botanicpark.seoul.go.kr/front/arboretum/arboretum.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-서오능도시자연공원",
+    "name": "서오능도시자연공원",
+    "category": "공원",
+    "district": "은평구",
+    "address": "서울특별시 은평구 구파발동 갈현동 진관내동",
+    "lat": 37.637521,
+    "lng": 126.910554,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 산책로(둘레길) 탑골생태공원 유아숲체험장 운동시설 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-351-8003)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-청계산도시자연공원",
+    "name": "청계산도시자연공원",
+    "category": "공원",
+    "district": "서초구",
+    "address": "서울특별시 서초구 원지동 산 33",
+    "lat": 37.442573,
+    "lng": 127.054065,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 정자 4동 파고라 약수터 화장실 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2155-6869)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-개화근린공원",
+    "name": "개화근린공원",
+    "category": "공원",
+    "district": "강서구",
+    "address": "서울특별시 강서구 개화동 산17",
+    "lat": 37.581437,
+    "lng": 126.806851,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 약사사 약사사 3층석탑 미타사 약수터 6?25전사자위령탑 운동시설 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2600-4183)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-아차산공원",
+    "name": "아차산공원",
+    "category": "공원",
+    "district": "광진구",
+    "address": "서울특별시 광진구 광장동 370",
+    "lat": 37.553623,
+    "lng": 127.100375,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 어울림광장, 어울림정원, 여가센터, 습지원, 맨발길, 약수터 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-450-1395)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-인능산도시자연공원",
+    "name": "인능산도시자연공원",
+    "category": "공원",
+    "district": "서초구",
+    "address": "서울특별시 서초구 내곡동 산12-404",
+    "lat": 37.44827,
+    "lng": 127.066655,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 옹달샘 1개소, 등산 동선상 헬기장 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2155-6873)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-구룡산도시자연공원",
+    "name": "구룡산도시자연공원",
+    "category": "공원",
+    "district": "서초구",
+    "address": "서울특별시 서초구 염곡동 산25-1",
+    "lat": 37.466595,
+    "lng": 127.053739,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 국수봉 전망대, 율암약수터, . 수유실·기저귀교환대 정보는 공원 관리사무소(02-2155-6873)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-우면산도시자연공원",
+    "name": "우면산도시자연공원",
+    "category": "공원",
+    "district": "서초구",
+    "address": "서울특별시 서초구 우면동 산35-1",
+    "lat": 37.471397,
+    "lng": 127.008429,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 약수터 정자 화장실 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-2155-6883)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-향림근린공원",
+    "name": "향림근린공원",
+    "category": "공원",
+    "district": "은평구",
+    "address": "서울특별시 은평구 진관동 산55",
+    "lat": 37.629488,
+    "lng": 126.924543,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 산책로 구민체육센터 다목적체육관 축구장 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-351-8002)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-신사근린공원",
+    "name": "신사근린공원",
+    "category": "공원",
+    "district": "은평구",
+    "address": "서울특별시 은평구 신사동 산80-4",
+    "lat": 37.592342,
+    "lng": 126.910155,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 산책로 자연학습장 놀이터 등. 수유실·기저귀교환대 정보는 공원 관리사무소(02-351-8004)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-경춘선숲길",
+    "name": "경춘선숲길",
+    "category": "공원",
+    "district": "서울",
+    "address": "노원구 공릉2동 산 82-2",
+    "lat": 37.627077,
+    "lng": 127.076482,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 조경시설 : 텃밭 잔디광장 철길 산책로 등 건축시설 : 무궁화호 객차(방문자센터) 기타시설 : 경춘철교 . 수유실·기저귀교환대 정보는 공원 관리사무소(02-3783-5977)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://parks.seoul.go.kr/content.do?key=2604300009",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
+  },
+  {
+    "id": "park-경의선숲길",
+    "name": "경의선숲길",
+    "category": "공원",
+    "district": "마포구",
+    "address": "서울특별시 마포구 연남동 ~ 용산구 문화체육센터",
+    "lat": 37.566306,
+    "lng": 126.919222,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": null,
+      "strollerAccess": true,
+      "note": "주요시설: 커뮤니티센터 회의실. 수유실·기저귀교환대 정보는 공원 관리사무소(02-719-8830)에 확인."
+    },
+    "dog": {
+      "allowed": "partial",
+      "note": "서울시 도시공원 조례상 목줄 착용·배변 처리 시 동반 가능(일부 시설·구역 제외). 방문 전 확인.",
+      "confidence": "medium"
+    },
+    "hours": "상시 개방(시설별 상이)",
+    "sourceUrl": "https://parks.seoul.go.kr/content.do?key=2604300008",
+    "lastChecked": "2026-10-20",
+    "source": "서울 열린데이터광장 서울시 주요 공원현황"
   }
 ]
