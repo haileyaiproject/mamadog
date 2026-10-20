@@ -266,7 +266,7 @@ function bindEvents() {
 /* ---------------- 시작 ---------------- */
 async function init() {
   document.title = `${CONFIG.SITE_NAME} (MamaDog) – 아기랑, 강아지랑, 서울 나들이`;
-  $("report").href = `mailto:${CONFIG.CONTACT_EMAIL}`;
+  const rep = $("report"); if (rep) rep.href = `mailto:${CONFIG.CONTACT_EMAIL}`; // 제보 버튼은 현재 사용 안 함
   initMap();
   bindEvents();
 
