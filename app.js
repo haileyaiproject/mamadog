@@ -55,7 +55,8 @@ function getFiltered() {
     if (filters.nursingRoom && !(p.baby && p.baby.nursingRoom)) return false;
     if (filters.diaperStation && !(p.baby && p.baby.diaperStation)) return false;
     if (filters.strollerRental && !(p.baby && p.baby.strollerRental)) return false;
-    if (filters.dog && !(p.dog && (p.dog.allowed === true || p.dog.allowed === "partial"))) return false;
+    // 강아지 동반: 확실히 가능(true) 또는 조건부라도 근거가 있는 곳(confidence가 low가 아닌 곳)만
+    if (filters.dog && !(p.dog && (p.dog.allowed === true || (p.dog.allowed === "partial" && p.dog.confidence !== "low")))) return false;
     if (district && p.district !== district) return false;
     if (category && p.category !== category) return false;
     if (q && !((p.name || "") + " " + (p.address || "") + " " + (p.district || "")).toLowerCase().includes(q)) return false;
@@ -132,7 +133,7 @@ function renderMarkers(list) {
   list.forEach((p) => {
     if (typeof p.lat !== "number" || typeof p.lng !== "number") return;
     const m = L.marker([p.lat, p.lng], { icon: pinIcon(p), title: p.name, keyboard: false });
-    m.bindPopup(`<div class="popup-title">${esc(p.name)}</div><div class="popup-sub">${esc(p.category)} · ${esc(p.district)}</div>`);
+    if (!isMobile()) m.bindPopup(`<div class="popup-title">${esc(p.name)}</div><div class="popup-sub">${esc(p.category)} · ${esc(p.district)}</div>`);
     m.on("click", () => selectPlace(p.id, "marker"));
     m.addTo(markerLayer);
     markers[p.id] = m;
@@ -141,26 +142,67 @@ function renderMarkers(list) {
   if (pts.length) map.fitBounds(pts, { padding: [40, 40], maxZoom: 14 });
 }
 
-/* 카드 ↔ 마커 연동 */
+/* ---------------- 모바일 바텀시트 (지도 핀을 누르면 아래에서 올라오는 상세 패널) ---------------- */
+const isMobile = () => window.innerWidth < 900;
+
+function openSheet(p) {
+  const sheet = $("sheet");
+  $("sheet-body").innerHTML = cardHtml(p);
+  sheet.hidden = false;
+  requestAnimationFrame(() => sheet.classList.add("open"));
+}
+function closeSheet() {
+  const sheet = $("sheet");
+  sheet.classList.remove("open");
+  setTimeout(() => { sheet.hidden = true; }, 220);
+  if (map) map.closePopup();
+}
+
+/* 카드 ↔ 마커 연동
+   - 핀 클릭(모바일): 바텀시트만 띄움 (스크롤 없음)
+   - 핀 클릭(데스크톱): 왼쪽 목록에서 해당 카드 강조 + 보이게
+   - 카드 클릭: 지도를 그 위치로 이동 (모바일은 바텀시트도 같이) */
 function selectPlace(id, from) {
   activeId = id;
+  const p = places.find((x) => x.id === id);
+  if (!p) return;
   document.querySelectorAll(".card").forEach((c) => c.classList.toggle("active", c.dataset.id === id));
   const m = markers[id];
   if (from === "marker") {
+    if (isMobile()) { openSheet(p); return; }
     const card = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
     if (card) card.scrollIntoView({ behavior: "smooth", block: "nearest" });
   } else if (m && map) {
     map.setView(m.getLatLng(), Math.max(map.getZoom(), 15), { animate: true });
-    m.openPopup();
-    // 모바일에서는 지도가 위에 있으므로 지도로 스크롤
-    if (window.innerWidth < 900) $("map").scrollIntoView({ behavior: "smooth", block: "center" });
+    if (isMobile()) {
+      // 모바일: 페이지 스크롤 대신 바텀시트로 보여줘요
+      openSheet(p);
+    } else {
+      m.openPopup();
+    }
   }
+}
+
+/* 결과 요약: "🐶 강아지 동반 · 🍼 수유실 — 12곳" */
+function summaryText(n) {
+  const on = [];
+  if (filters.nursingRoom) on.push("🍼 수유실");
+  if (filters.diaperStation) on.push("🚼 기저귀교환대");
+  if (filters.strollerRental) on.push("👶 유모차대여");
+  if (filters.dog) on.push("🐶 강아지 동반");
+  if ($("district").value) on.push($("district").value);
+  if ($("category").value) on.push($("category").value);
+  if ($("q").value.trim()) on.push(`'${$("q").value.trim()}'`);
+  const cond = on.length ? on.join(" · ") + " — " : "전체 ";
+  return `${cond}<b>${n}곳</b>`;
 }
 
 /* ---------------- 화면 그리기 ---------------- */
 function render() {
   const list = getFiltered();
-  $("count").textContent = `${list.length}곳을 찾았어요`;
+  activeId = null;                       // 필터가 바뀌면 선택 해제 (예전 카드로 튀지 않게)
+  closeSheet();
+  $("count").innerHTML = summaryText(list.length);
   $("reset").hidden = !isFiltering();
   $("message").innerHTML = "";
 
@@ -170,7 +212,6 @@ function render() {
     $("list").innerHTML = list.map(cardHtml).join("");
   }
   renderMarkers(list);
-  if (activeId) selectPlace(activeId, "marker");
 }
 
 function isFiltering() {
@@ -216,6 +257,10 @@ function bindEvents() {
     const card = e.target.closest(".card");
     if (card) selectPlace(card.dataset.id, "card");
   });
+  // 바텀시트 닫기 (X 버튼, 배경 터치)
+  $("sheet-close").addEventListener("click", closeSheet);
+  $("sheet").addEventListener("click", (e) => { if (e.target === $("sheet")) closeSheet(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeSheet(); });
 }
 
 /* ---------------- 시작 ---------------- */

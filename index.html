@@ -63,6 +63,15 @@
     </div>
   </main>
 
+  <!-- 모바일 바텀시트: 지도 핀을 누르면 아래에서 올라오는 상세 패널 -->
+  <div id="sheet" class="sheet" hidden role="dialog" aria-label="장소 상세">
+    <div class="sheet-panel">
+      <div class="sheet-handle"></div>
+      <button type="button" id="sheet-close" class="sheet-close" aria-label="닫기">✕</button>
+      <div id="sheet-body"></div>
+    </div>
+  </div>
+
   <footer class="site-footer">
     <p>반려동물 동반 정책은 변경될 수 있어요. 방문 전 꼭 확인해주세요.</p>
     <p><a id="report" href="mailto:hello@example.com">정보 제보하기</a></p>
