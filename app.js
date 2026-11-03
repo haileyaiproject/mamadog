@@ -109,7 +109,8 @@ function cardHtml(p) {
     ${p.hours ? `<div class="hours">🕘 ${esc(p.hours)}</div>` : ""}
     <div class="links">
       ${src ? `<a href="${esc(src)}" target="_blank" rel="noopener" title="${esc(p.sourceNote || "")}">출처${p.sourceNote ? " · " + esc(p.sourceNote) : ""}</a>` : ""}
-      <a href="https://map.kakao.com/link/search/${name}" target="_blank" rel="noopener">카카오맵에서 보기</a>
+      <a href="${p.kakaoUrl ? esc(safeUrl(p.kakaoUrl)) : "https://map.kakao.com/link/search/" + name}" target="_blank" rel="noopener">카카오맵에서 보기</a>
+      ${p.tel ? `<a href="tel:${esc(p.tel)}">📞 전화</a>` : ""}
       ${route}
     </div>
   </article>`;
