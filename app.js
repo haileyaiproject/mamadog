@@ -9,7 +9,7 @@
    CONTACT_EMAIL: 푸터의 "정보 제보하기" 메일 주소예요. 실제 주소로 바꿔주세요.
    SITE_NAME    : 사이트 이름 */
 const CONFIG = {
-  KAKAO_JS_KEY: "",
+  KAKAO_JS_KEY: "b442da005b06555656abc0fa53bceaab",   // 카카오 JavaScript 키 (도메인 제한 걸려 있어 공개돼도 괜찮아요)
   CONTACT_EMAIL: "hello@example.com",
   SITE_NAME: "마마독"
 };
@@ -116,41 +116,76 @@ function cardHtml(p) {
   </article>`;
 }
 
-/* ---------------- 지도 ---------------- */
+/* ---------------- 지도 ----------------
+   카카오맵(한국 지도 정확) 우선, 로딩 실패 시 Leaflet(OpenStreetMap)으로 자동 대체.
+   두 지도 모두 같은 함수 이름(mapClear/mapAdd/mapFit/mapFocus)로 다뤄요. */
+let useKakao = false, clusterer = null, mapBounds = null;
+
 function initMap() {
-  if (typeof L === "undefined") {   // Leaflet 로딩 실패 (오프라인 등)
+  if (window.kakao && kakao.maps && CONFIG.KAKAO_JS_KEY) {
+    kakao.maps.load(() => {
+      useKakao = true;
+      map = new kakao.maps.Map($("map"), { center: new kakao.maps.LatLng(37.5665, 126.978), level: 8 });
+      map.addControl(new kakao.maps.ZoomControl(), kakao.maps.ControlPosition.RIGHT);
+      clusterer = new kakao.maps.MarkerClusterer({ map, averageCenter: true, minLevel: 6, disableClickZoom: false,
+        styles: [{ width: "40px", height: "40px", background: "rgba(255,122,89,.85)", borderRadius: "20px", color: "#fff", textAlign: "center", lineHeight: "40px", fontWeight: "700", fontSize: "13px" }] });
+      if (places.length) renderMarkers(getFiltered());
+    });
+    return;
+  }
+  if (typeof L === "undefined") {
     $("map").innerHTML = '<div class="message">지도를 불러오지 못했어요. 목록은 그대로 볼 수 있어요.</div>';
     return;
   }
   map = L.map("map", { scrollWheelZoom: true }).setView([37.5665, 126.978], 11);
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-  }).addTo(map);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
   markerLayer = L.layerGroup().addTo(map);
 }
 
-function pinIcon(p) {
-  const a = p.dog && p.dog.allowed;
-  const cls = a === true ? "dog" : a === "partial" ? "partial" : "baby";
-  return L.divIcon({ className: "", html: `<div class="pin ${cls}"></div>`, iconSize: [26, 26], iconAnchor: [13, 26], popupAnchor: [0, -24] });
-}
+function pinClass(p) { const a = p.dog && p.dog.allowed; return a === true ? "dog" : a === "partial" ? "partial" : "baby"; }
 
 function renderMarkers(list) {
   if (!map) return;
-  markerLayer.clearLayers();
   Object.keys(markers).forEach((k) => delete markers[k]);
+  if (useKakao) {
+    clusterer.clear();
+    const ms = []; mapBounds = new kakao.maps.LatLngBounds();
+    list.forEach((p) => {
+      if (typeof p.lat !== "number" || typeof p.lng !== "number") return;
+      const pos = new kakao.maps.LatLng(p.lat, p.lng);
+      const m = new kakao.maps.Marker({ position: pos, title: p.name, image: kakaoPinImage(pinClass(p)) });
+      kakao.maps.event.addListener(m, "click", () => selectPlace(p.id, "marker"));
+      markers[p.id] = m; ms.push(m); mapBounds.extend(pos);
+    });
+    clusterer.addMarkers(ms);
+    if (ms.length) map.setBounds(mapBounds);
+    return;
+  }
+  markerLayer.clearLayers();
   const pts = [];
   list.forEach((p) => {
     if (typeof p.lat !== "number" || typeof p.lng !== "number") return;
-    const m = L.marker([p.lat, p.lng], { icon: pinIcon(p), title: p.name, keyboard: false });
+    const m = L.marker([p.lat, p.lng], { icon: L.divIcon({ className: "", html: `<div class="pin ${pinClass(p)}"></div>`, iconSize: [26, 26], iconAnchor: [13, 26], popupAnchor: [0, -24] }), title: p.name, keyboard: false });
     if (!isMobile()) m.bindPopup(`<div class="popup-title">${esc(p.name)}</div><div class="popup-sub">${esc(p.category)} · ${esc(p.district)}</div>`);
     m.on("click", () => selectPlace(p.id, "marker"));
-    m.addTo(markerLayer);
-    markers[p.id] = m;
-    pts.push([p.lat, p.lng]);
+    m.addTo(markerLayer); markers[p.id] = m; pts.push([p.lat, p.lng]);
   });
   if (pts.length) map.fitBounds(pts, { padding: [40, 40], maxZoom: 14 });
+}
+
+/* 카카오맵용 핀 이미지 (SVG를 데이터 URL로) — 색: 강아지OK 민트 / 조건부 앰버 / 기타 코랄 */
+const PIN_COLORS = { dog: "#4FB3A9", partial: "#E8A317", baby: "#FF7A59" };
+const pinImages = {};
+function kakaoPinImage(cls) {
+  if (pinImages[cls]) return pinImages[cls];
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="26" height="34" viewBox="0 0 26 34"><path d="M13 1C6.4 1 1 6.4 1 13c0 8.5 12 20 12 20s12-11.5 12-20C25 6.4 19.6 1 13 1z" fill="${PIN_COLORS[cls]}" stroke="#fff" stroke-width="2"/><circle cx="13" cy="13" r="4.5" fill="#fff"/></svg>`;
+  pinImages[cls] = new kakao.maps.MarkerImage("data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg), new kakao.maps.Size(26, 34), { offset: new kakao.maps.Point(13, 34) });
+  return pinImages[cls];
+}
+
+function mapFocus(m) {
+  if (useKakao) { map.setLevel(3); map.panTo(m.getPosition()); }
+  else { map.setView(m.getLatLng(), Math.max(map.getZoom(), 15), { animate: true }); }
 }
 
 /* ---------------- 모바일 바텀시트 (지도 핀을 누르면 아래에서 올라오는 상세 패널) ---------------- */
@@ -166,7 +201,7 @@ function closeSheet() {
   const sheet = $("sheet");
   sheet.classList.remove("open");
   setTimeout(() => { sheet.hidden = true; }, 220);
-  if (map) map.closePopup();
+  if (map && !useKakao) map.closePopup();
 }
 
 /* 카드 ↔ 마커 연동
@@ -184,11 +219,11 @@ function selectPlace(id, from) {
     const card = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
     if (card) card.scrollIntoView({ behavior: "smooth", block: "nearest" });
   } else if (m && map) {
-    map.setView(m.getLatLng(), Math.max(map.getZoom(), 15), { animate: true });
+    mapFocus(m);
     if (isMobile()) {
       // 모바일: 페이지 스크롤 대신 바텀시트로 보여줘요
       openSheet(p);
-    } else {
+    } else if (!useKakao) {
       m.openPopup();
     }
   }

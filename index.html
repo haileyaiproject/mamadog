@@ -15,6 +15,7 @@
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="preconnect" href="https://dapi.kakao.com">
   <!-- 기본 색상은 styles.css 에 있고, brand.css 가 있으면 덮어씁니다 (없어도 괜찮아요) -->
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="assets/brand.css" onerror="this.remove()">
@@ -80,9 +81,11 @@
 
   <footer class="site-footer">
     <p>반려동물 동반 정책은 변경될 수 있어요. 방문 전 꼭 확인해주세요.</p>
-    <p>© 마마독 MamaDog · 지도 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a></p>
+    <p>© 마마독 MamaDog · 지도 © Kakao / <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a></p>
   </footer>
 
+  <!-- 카카오맵 SDK (키는 app.js의 CONFIG.KAKAO_JS_KEY와 동일해야 해요). 실패하면 Leaflet로 자동 대체 -->
+  <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=b442da005b06555656abc0fa53bceaab&autoload=false&libraries=clusterer"></script>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="app.js"></script>
 </body>
