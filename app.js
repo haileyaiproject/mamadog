@@ -16,7 +16,7 @@ const CONFIG = {
 
 /* ---------------- 상태 ---------------- */
 let places = [];                       // 전체 장소
-const filters = { nursingRoom: false, diaperStation: false, strollerRental: false, dog: false };
+const filters = { nursingRoom: false, diaperStation: false, strollerRental: false, dog: false, babyChair: false, parking: false, valet: false, eat: false };
 let map = null, markerLayer = null;
 const markers = {};                    // id -> Leaflet 마커
 let activeId = null;
@@ -57,6 +57,10 @@ function getFiltered() {
     if (filters.strollerRental && !(p.baby && p.baby.strollerRental)) return false;
     // 강아지 동반: 확실히 가능(true) 또는 조건부라도 근거가 있는 곳(confidence가 low가 아닌 곳)만
     if (filters.dog && !(p.dog && (p.dog.allowed === true || (p.dog.allowed === "partial" && p.dog.confidence !== "low")))) return false;
+    if (filters.babyChair && !(p.kids && p.kids.babyChair)) return false;
+    if (filters.parking && !(p.parking && p.parking.available)) return false;
+    if (filters.valet && !(p.parking && p.parking.valet)) return false;
+    if (filters.eat && !(p.category === "카페" || p.category === "식당")) return false;
     if (district && p.district !== district) return false;
     if (category && p.category !== category) return false;
     if (q && !((p.name || "") + " " + (p.address || "") + " " + (p.district || "")).toLowerCase().includes(q)) return false;
@@ -83,22 +87,28 @@ function cardHtml(p) {
   if (b.strollerRental) badges.push('<span class="badge">👶 유모차대여</span>');
   if (b.strollerAccess) badges.push('<span class="badge">🛒 유모차 진입</span>');
   badges.push(dogBadge(p.dog));
+  const k = p.kids || {}, pk = p.parking || {};
+  if (k.babyChair) badges.push('<span class="badge kids">🪑 아기의자</span>');
+  if (k.kidsMenu) badges.push('<span class="badge kids">🍚 유아식/키즈메뉴</span>');
+  if (pk.available) badges.push('<span class="badge park">🅿️ 주차</span>');
+  if (pk.available === false) badges.push('<span class="badge off">🅿️ 주차 불가</span>');
+  if (pk.valet) badges.push('<span class="badge park">🚗 발렛</span>');
 
   const name = encodeURIComponent(p.name || "");
   const src = safeUrl(p.sourceUrl);
-  const notes = [b.note, p.dog && p.dog.note].filter(Boolean).map((n) => `<p class="note">${esc(n)}</p>`).join("");
+  const notes = [b.note, p.dog && p.dog.note, k.note, pk.note, p.menuHint && ("메뉴: " + p.menuHint)].filter(Boolean).map((n) => `<p class="note">${esc(n)}</p>`).join("");
   const hasCoord = typeof p.lat === "number" && typeof p.lng === "number";
   const route = hasCoord
     ? `<a class="go" href="https://map.kakao.com/link/to/${name},${p.lat},${p.lng}" target="_blank" rel="noopener">길찾기</a>` : "";
 
   return `<article class="card" data-id="${esc(p.id)}" tabindex="0" aria-label="${esc(p.name)}">
     <h2>${esc(p.name)}</h2>
-    <div class="meta">${esc(p.category)} · ${esc(p.district)}</div>
+    <div class="meta">${esc(p.category)} · ${esc(p.district)}${p.neighborhood ? " · " + esc(p.neighborhood) : ""}</div>
     <div class="badges">${badges.join("")}</div>
     ${notes}
     ${p.hours ? `<div class="hours">🕘 ${esc(p.hours)}</div>` : ""}
     <div class="links">
-      ${src ? `<a href="${esc(src)}" target="_blank" rel="noopener">출처</a>` : ""}
+      ${src ? `<a href="${esc(src)}" target="_blank" rel="noopener" title="${esc(p.sourceNote || "")}">출처${p.sourceNote ? " · " + esc(p.sourceNote) : ""}</a>` : ""}
       <a href="https://map.kakao.com/link/search/${name}" target="_blank" rel="noopener">카카오맵에서 보기</a>
       ${route}
     </div>
@@ -190,6 +200,10 @@ function summaryText(n) {
   if (filters.diaperStation) on.push("🚼 기저귀교환대");
   if (filters.strollerRental) on.push("👶 유모차대여");
   if (filters.dog) on.push("🐶 강아지 동반");
+  if (filters.eat) on.push("☕🍽 카페·식당");
+  if (filters.babyChair) on.push("🪑 아기의자");
+  if (filters.parking) on.push("🅿️ 주차");
+  if (filters.valet) on.push("🚗 발렛");
   if ($("district").value) on.push($("district").value);
   if ($("category").value) on.push($("category").value);
   if ($("q").value.trim()) on.push(`'${$("q").value.trim()}'`);

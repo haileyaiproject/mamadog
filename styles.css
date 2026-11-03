@@ -110,6 +110,10 @@ a { color: inherit; }
 .badge.dog-yes { background: #DDF2EF; color: #1F7A70; }
 .badge.dog-partial { background: #FFF1CC; color: #8A5A00; }
 .badge.dog-no { background: #EEE; color: #666; }
+.badge.kids { background: #EAF1FF; color: #2F5BB7; }
+.badge.park { background: #EEF2F5; color: #3F5566; }
+.badge.off { background: #F3F3F3; color: #999; text-decoration: line-through; }
+.chip.eat[aria-pressed="true"] { background: #2F5BB7; border-color: #2F5BB7; }
 .note { font-size: .88rem; margin: 4px 0; }
 .hours { font-size: .85rem; color: var(--brand-muted); margin: 4px 0 8px; }
 .links { display: flex; flex-wrap: wrap; gap: 8px; font-size: .85rem; }
