@@ -27058,5 +27058,46 @@
     "sourceNote": "구글 지도 리뷰 1건 (작성일 미확인)",
     "lastChecked": "2026-11-03",
     "source": "블로그/리뷰 수집"
+  },
+  {
+    "id": "eat-lemangdore-seorae",
+    "name": "레망도레 서래마을점",
+    "category": "카페",
+    "district": "서초구",
+    "neighborhood": "반포동(서래마을)",
+    "address": "서울 서초구 사평대로26길 9-3 1층",
+    "lat": 37.499918,
+    "lng": 126.99879,
+    "baby": {
+      "nursingRoom": null,
+      "diaperStation": null,
+      "strollerRental": false,
+      "strollerAccess": null,
+      "note": ""
+    },
+    "kids": {
+      "babyChair": null,
+      "kidsMenu": null,
+      "noKids": null,
+      "note": ""
+    },
+    "parking": {
+      "available": true,
+      "valet": true,
+      "note": "발렛 가능(이용자 확인). 카카오맵: 주차 가능"
+    },
+    "dog": {
+      "allowed": true,
+      "note": "카카오맵 '반려동물동반 가능' 표시 + 이용자 확인.",
+      "confidence": "high"
+    },
+    "hours": "08:00~21:00 (라스트오더 20:30)",
+    "menuHint": "베이커리·브런치",
+    "tel": "010-2540-3650",
+    "kakaoUrl": "http://place.map.kakao.com/1697987787",
+    "sourceUrl": "http://place.map.kakao.com/1697987787",
+    "sourceNote": "카카오맵 2026.11 · 이용자 제보",
+    "lastChecked": "2026-11-03",
+    "source": "이용자 제보 + 카카오맵"
   }
 ]
