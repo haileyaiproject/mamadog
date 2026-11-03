@@ -158,7 +158,7 @@ function renderMarkers(list) {
       markers[p.id] = m; ms.push(m); mapBounds.extend(pos);
     });
     clusterer.addMarkers(ms);
-    if (ms.length) map.setBounds(mapBounds);
+    if (ms.length) { map.setBounds(mapBounds); if (map.getLevel() > 8) map.setLevel(8); if (map.getLevel() < 3) map.setLevel(3); }
     return;
   }
   markerLayer.clearLayers();
