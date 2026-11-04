@@ -141,3 +141,10 @@ a { color: inherit; }
 .site-footer { border-top: 1px solid var(--line); padding: 20px 16px 32px; text-align: center; font-size: .85rem; color: var(--brand-muted); }
 .site-footer p { margin: 4px 0; }
 .site-footer a { color: var(--brand-primary); }
+
+/* ---------- 가봤어요 ---------- */
+.visit-btn { font: inherit; font-size: .85rem; padding: 6px 10px; border: 1px solid var(--line); border-radius: 10px; background: #fff; cursor: pointer; color: var(--brand-muted); }
+.visit-btn.on { background: #DDF2EF; border-color: var(--brand-secondary); color: #1F7A70; font-weight: 700; }
+.chip.visit[aria-pressed="true"] { background: #1F7A70; border-color: #1F7A70; }
+.chip-hint { font-size: .75rem; color: var(--brand-muted); align-self: center; }
+.card.visited-dim { opacity: .6; }

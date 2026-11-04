@@ -47,6 +47,11 @@
           <button type="button" class="chip" data-filter="parking" aria-pressed="false">🅿️ 주차 가능</button>
           <button type="button" class="chip" data-filter="valet" aria-pressed="false">🚗 발렛</button>
         </div>
+        <div class="chips">
+          <button type="button" class="chip visit" data-filter="visited" data-value="yes" aria-pressed="false">✅ 가본 곳 <span id="visit-count"></span></button>
+          <button type="button" class="chip visit" data-filter="visited" data-value="no" aria-pressed="false">🆕 안 가본 곳</button>
+          <span class="chip-hint">카드의 '가봤어요'를 누르면 이 기기에 저장돼요</span>
+        </div>
         <div class="controls">
           <div><label for="district">자치구</label><select id="district"><option value="">전체 자치구</option></select></div>
           <div><label for="category">카테고리</label><select id="category"><option value="">전체 카테고리</option></select></div>

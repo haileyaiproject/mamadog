@@ -16,7 +16,24 @@ const CONFIG = {
 
 /* ---------------- 상태 ---------------- */
 let places = [];                       // 전체 장소
-const filters = { nursingRoom: false, diaperStation: false, strollerRental: false, dog: false, babyChair: false, parking: false, valet: false, eat: false };
+const filters = { nursingRoom: false, diaperStation: false, strollerRental: false, dog: false, babyChair: false, parking: false, valet: false, eat: false, visited: "" };  // visited: "" | "yes" | "no"
+
+/* ---------------- 가본 곳 (이 브라우저에만 저장) ---------------- */
+const VISIT_KEY = "mamadog_visited_v1";
+let visited = new Set();
+try { visited = new Set(JSON.parse(localStorage.getItem(VISIT_KEY) || "[]")); } catch (e) {}
+function saveVisited() { try { localStorage.setItem(VISIT_KEY, JSON.stringify([...visited])); } catch (e) {} }
+function toggleVisited(id) {
+  if (visited.has(id)) visited.delete(id); else visited.add(id);
+  saveVisited();
+  document.querySelectorAll(`.visit-btn[data-id="${CSS.escape(id)}"]`).forEach((b) => {
+    b.classList.toggle("on", visited.has(id)); b.setAttribute("aria-pressed", String(visited.has(id)));
+    b.textContent = visited.has(id) ? "✅ 가봤어요" : "☐ 가봤어요";
+  });
+  if (filters.visited) render();   // 가본/안 가본 필터 중이면 목록 갱신
+  updateVisitCount();
+}
+function updateVisitCount() { const el = $("visit-count"); if (el) el.textContent = visited.size ? `(${visited.size})` : ""; }
 let map = null, markerLayer = null;
 const markers = {};                    // id -> Leaflet 마커
 let activeId = null;
@@ -61,6 +78,8 @@ function getFiltered() {
     if (filters.parking && !(p.parking && p.parking.available)) return false;
     if (filters.valet && !(p.parking && p.parking.valet)) return false;
     if (filters.eat && !(p.category === "카페" || p.category === "식당")) return false;
+    if (filters.visited === "yes" && !visited.has(p.id)) return false;
+    if (filters.visited === "no" && visited.has(p.id)) return false;
     if (district && p.district !== district) return false;
     if (category && p.category !== category) return false;
     if (q && !((p.name || "") + " " + (p.address || "") + " " + (p.district || "")).toLowerCase().includes(q)) return false;
@@ -96,6 +115,7 @@ function cardHtml(p) {
 
   const name = encodeURIComponent(p.name || "");
   const src = safeUrl(p.sourceUrl);
+  const v = visited.has(p.id);
   const notes = [b.note, p.dog && p.dog.note, k.note, pk.note, p.menuHint && ("메뉴: " + p.menuHint)].filter(Boolean).map((n) => `<p class="note">${esc(n)}</p>`).join("");
   const hasCoord = typeof p.lat === "number" && typeof p.lng === "number";
   const route = hasCoord
@@ -108,6 +128,7 @@ function cardHtml(p) {
     ${notes}
     ${p.hours ? `<div class="hours">🕘 ${esc(p.hours)}</div>` : ""}
     <div class="links">
+      <button type="button" class="visit-btn${v ? " on" : ""}" data-id="${esc(p.id)}" aria-pressed="${v}">${v ? "✅ 가봤어요" : "☐ 가봤어요"}</button>
       ${src ? `<a href="${esc(src)}" target="_blank" rel="noopener" title="${esc(p.sourceNote || "")}">출처${p.sourceNote ? " · " + esc(p.sourceNote) : ""}</a>` : ""}
       <a href="${p.kakaoUrl ? esc(safeUrl(p.kakaoUrl)) : "https://map.kakao.com/link/search/" + name}" target="_blank" rel="noopener">카카오맵에서 보기</a>
       ${p.tel ? `<a href="tel:${esc(p.tel)}">📞 전화</a>` : ""}
@@ -240,6 +261,8 @@ function summaryText(n) {
   if (filters.babyChair) on.push("🪑 아기의자");
   if (filters.parking) on.push("🅿️ 주차");
   if (filters.valet) on.push("🚗 발렛");
+  if (filters.visited === "yes") on.push("✅ 가본 곳");
+  if (filters.visited === "no") on.push("🆕 안 가본 곳");
   if ($("district").value) on.push($("district").value);
   if ($("category").value) on.push($("category").value);
   if ($("q").value.trim()) on.push(`'${$("q").value.trim()}'`);
@@ -254,6 +277,7 @@ function render() {
   closeSheet();
   $("count").innerHTML = summaryText(list.length);
   $("reset").hidden = !isFiltering();
+  updateVisitCount();
   $("message").innerHTML = "";
 
   if (!list.length) {
@@ -282,6 +306,12 @@ function bindEvents() {
   document.querySelectorAll(".chip").forEach((btn) => {
     btn.addEventListener("click", () => {
       const key = btn.dataset.filter;
+      if (key === "visited") {                         // 가본/안 가본: 둘 중 하나만
+        const val = btn.dataset.value;
+        filters.visited = filters.visited === val ? "" : val;
+        document.querySelectorAll('.chip[data-filter="visited"]').forEach((b) => b.setAttribute("aria-pressed", String(filters.visited === b.dataset.value)));
+        render(); return;
+      }
       filters[key] = !filters[key];
       btn.setAttribute("aria-pressed", String(filters[key]));
       render();
@@ -290,15 +320,18 @@ function bindEvents() {
   ["district", "category"].forEach((id) => $(id).addEventListener("change", render));
   $("q").addEventListener("input", render);
   $("reset").addEventListener("click", () => {
-    Object.keys(filters).forEach((k) => (filters[k] = false));
+    Object.keys(filters).forEach((k) => (filters[k] = k === "visited" ? "" : false));
     document.querySelectorAll(".chip").forEach((b) => b.setAttribute("aria-pressed", "false"));
     $("district").value = ""; $("category").value = ""; $("q").value = "";
     render();
   });
   // 카드 클릭(링크 클릭은 제외) / 키보드 Enter
   const list = $("list");
+  document.addEventListener("click", (e) => {       // 가봤어요 버튼 (목록·바텀시트 공통)
+    const b = e.target.closest(".visit-btn"); if (b) { e.stopPropagation(); toggleVisited(b.dataset.id); }
+  }, true);
   list.addEventListener("click", (e) => {
-    if (e.target.closest("a")) return;
+    if (e.target.closest("a, .visit-btn")) return;
     const card = e.target.closest(".card");
     if (card) selectPlace(card.dataset.id, "card");
   });
